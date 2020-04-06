@@ -15,21 +15,25 @@
 
         $existStatus= 'no';
 
-        $existQuery = new WP_Query(array(
-          'author' => get_current_user_id(),
-          'post_type' => 'anmeldung', 
-          'meta_query' => array(
-            array(
-              'key' => 'kursanmeldung_id',
-              'compare' => '=',
-              'value' => get_the_ID()
+        if (is_user_logged_in()) {
+          $existQuery = new WP_Query(array(
+            'author' => get_current_user_id(),
+            'post_type' => 'anmeldung', 
+            'meta_query' => array(
+              array(
+                'key' => 'kursanmeldung_id',
+                'compare' => '=',
+                'value' => get_the_ID()
+              )
             )
-          )
-        ));
+          ));
 
-        if ($existQuery->found_posts) {
-          $existStatus = 'yes';
+          if ($existQuery->found_posts) {
+            $existStatus = 'yes';
+          }
         }
+
+        
         
         ?>
 
@@ -64,7 +68,7 @@
      
      <div class="generic-content">
       <div class="one-third">
-        <span class="like-box" data-kurs="<?php the_ID(); ?>" data-exists="<?php echo $existStatus; ?>">
+        <span class="like-box" data-anmeldung="<?php echo $existQuery->posts[0]->ID; ?>" data-kurs="<?php the_ID(); ?>" data-exists="<?php echo $existStatus; ?>">
           <i class="fa fa-heart-o" aria-hidden="true"> </i>
           <i class="fa fa-heart" aria-hidden="true"> </i>
           <span class="like-count"><?php echo $anmeldungpostCount;?></span>

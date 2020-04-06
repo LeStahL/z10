@@ -1060,3 +1060,283 @@ Stack trace:
 [06-Apr-2020 14:57:39 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-meine-anmeldungen.php on line 23
 [06-Apr-2020 14:57:57 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-meine-anmeldungen.php on line 29
 [06-Apr-2020 14:58:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-meine-anmeldungen.php on line 42
+[06-Apr-2020 20:34:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php on line 44
+[06-Apr-2020 21:11:35 UTC] PHP Warning:  Use of undefined constant anmeldungID - assumed 'anmeldungID' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php on line 56
+[06-Apr-2020 21:11:35 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:35 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:35 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:35 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:35 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:35 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:35 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:35 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:35 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:35 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:35 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:35 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[06-Apr-2020 21:11:35 UTC] PHP  12. deleteAnmeldung() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[06-Apr-2020 21:11:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1337
+[06-Apr-2020 21:11:35 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:35 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:35 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:35 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:35 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:35 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:35 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:35 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:35 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:35 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:35 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:35 UTC] PHP  11. WP_REST_Server->send_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:374
+[06-Apr-2020 21:11:35 UTC] PHP  12. WP_REST_Server->send_header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1349
+[06-Apr-2020 21:11:35 UTC] PHP  13. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1337
+[06-Apr-2020 21:11:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 590
+[06-Apr-2020 21:11:35 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:35 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:35 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:35 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:35 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:35 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:35 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:35 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:35 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:35 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:35 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:35 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:35 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:35 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:35 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:590
+[06-Apr-2020 21:11:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 591
+[06-Apr-2020 21:11:35 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:35 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:35 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:35 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:35 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:35 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:35 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:35 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:35 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:35 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:35 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:35 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:35 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:35 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:35 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:591
+[06-Apr-2020 21:11:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 592
+[06-Apr-2020 21:11:35 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:35 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:35 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:35 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:35 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:35 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:35 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:35 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:35 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:35 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:35 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:35 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:35 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:35 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:35 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:592
+[06-Apr-2020 21:11:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 593
+[06-Apr-2020 21:11:35 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:35 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:35 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:35 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:35 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:35 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:35 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:35 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:35 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:35 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:35 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:35 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:35 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:35 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:35 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:593
+[06-Apr-2020 21:11:37 UTC] PHP Warning:  Use of undefined constant anmeldungID - assumed 'anmeldungID' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php on line 56
+[06-Apr-2020 21:11:37 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:37 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:37 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:37 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:37 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:37 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:37 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:37 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:37 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:37 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:37 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[06-Apr-2020 21:11:37 UTC] PHP  12. deleteAnmeldung() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[06-Apr-2020 21:11:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1337
+[06-Apr-2020 21:11:37 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:37 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:37 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:37 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:37 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:37 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:37 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:37 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:37 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:37 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:37 UTC] PHP  11. WP_REST_Server->send_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:374
+[06-Apr-2020 21:11:37 UTC] PHP  12. WP_REST_Server->send_header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1349
+[06-Apr-2020 21:11:37 UTC] PHP  13. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1337
+[06-Apr-2020 21:11:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 590
+[06-Apr-2020 21:11:37 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:37 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:37 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:37 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:37 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:37 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:37 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:37 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:37 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:37 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:37 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:37 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:37 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:37 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:590
+[06-Apr-2020 21:11:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 591
+[06-Apr-2020 21:11:37 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:37 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:37 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:37 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:37 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:37 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:37 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:37 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:37 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:37 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:37 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:37 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:37 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:37 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:591
+[06-Apr-2020 21:11:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 592
+[06-Apr-2020 21:11:37 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:37 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:37 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:37 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:37 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:37 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:37 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:37 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:37 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:37 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:37 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:37 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:37 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:37 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:592
+[06-Apr-2020 21:11:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 593
+[06-Apr-2020 21:11:37 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:37 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:37 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:37 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:37 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:37 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:37 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:37 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:37 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:37 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:37 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:37 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:37 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:37 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:593
+[06-Apr-2020 21:11:41 UTC] PHP Warning:  Use of undefined constant anmeldungID - assumed 'anmeldungID' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php on line 56
+[06-Apr-2020 21:11:41 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:41 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:41 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:41 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:41 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:41 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:41 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:41 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:41 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:41 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[06-Apr-2020 21:11:41 UTC] PHP  12. deleteAnmeldung() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[06-Apr-2020 21:11:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1337
+[06-Apr-2020 21:11:41 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:41 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:41 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:41 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:41 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:41 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:41 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:41 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:41 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:41 UTC] PHP  11. WP_REST_Server->send_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:374
+[06-Apr-2020 21:11:41 UTC] PHP  12. WP_REST_Server->send_header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1349
+[06-Apr-2020 21:11:41 UTC] PHP  13. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1337
+[06-Apr-2020 21:11:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 590
+[06-Apr-2020 21:11:41 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:41 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:41 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:41 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:41 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:41 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:41 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:41 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:41 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:41 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:41 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:41 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:41 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:590
+[06-Apr-2020 21:11:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 591
+[06-Apr-2020 21:11:41 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:41 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:41 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:41 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:41 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:41 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:41 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:41 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:41 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:41 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:41 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:41 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:41 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:591
+[06-Apr-2020 21:11:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 592
+[06-Apr-2020 21:11:41 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:41 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:41 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:41 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:41 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:41 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:41 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:41 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:41 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:41 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:41 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:41 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:41 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:592
+[06-Apr-2020 21:11:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php:56) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php on line 593
+[06-Apr-2020 21:11:41 UTC] PHP Stack trace:
+[06-Apr-2020 21:11:41 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 21:11:41 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 21:11:41 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[06-Apr-2020 21:11:41 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[06-Apr-2020 21:11:41 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[06-Apr-2020 21:11:41 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[06-Apr-2020 21:11:41 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[06-Apr-2020 21:11:41 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 21:11:41 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 21:11:41 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[06-Apr-2020 21:11:41 UTC] PHP  11. apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:393
+[06-Apr-2020 21:11:41 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
+[06-Apr-2020 21:11:41 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
+[06-Apr-2020 21:11:41 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:593
