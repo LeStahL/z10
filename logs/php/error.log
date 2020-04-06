@@ -220,3 +220,843 @@ Stack trace:
   thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-mitglied.php on line 67
 [02-Apr-2020 16:03:02 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/mu-plugins/z10-post-types.php on line 46
 [02-Apr-2020 16:03:20 UTC] PHP Parse error:  syntax error, unexpected 'raw' (T_STRING) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/mu-plugins/z10-post-types.php on line 57
+[02-Apr-2020 19:59:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-spiele.php on line 39
+[02-Apr-2020 19:59:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-spiele.php on line 39
+[02-Apr-2020 20:04:44 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-spiele.php on line 26
+[02-Apr-2020 20:05:14 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-spiele.php on line 26
+[02-Apr-2020 20:05:15 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-spiele.php on line 26
+[02-Apr-2020 20:06:20 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-spiele.php on line 27
+[03-Apr-2020 12:29:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_trim_word() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php:32
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php on line 32
+[03-Apr-2020 12:33:19 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single-kurs.php on line 21
+[03-Apr-2020 13:11:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function print_() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:102
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 102
+[03-Apr-2020 13:11:51 UTC] PHP Parse error:  syntax error, unexpected 'orga' (T_STRING), expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 102
+[03-Apr-2020 13:20:35 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 92
+[03-Apr-2020 13:22:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php on line 37
+[03-Apr-2020 13:22:37 UTC] PHP Stack trace:
+[03-Apr-2020 13:22:37 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[03-Apr-2020 13:22:37 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[03-Apr-2020 13:22:37 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[03-Apr-2020 13:22:37 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[03-Apr-2020 13:24:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php on line 42
+[03-Apr-2020 13:24:42 UTC] PHP Stack trace:
+[03-Apr-2020 13:24:42 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[03-Apr-2020 13:24:42 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[03-Apr-2020 13:24:42 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[03-Apr-2020 13:24:42 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[03-Apr-2020 13:26:15 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php on line 42
+[03-Apr-2020 13:27:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php on line 35
+[03-Apr-2020 13:27:21 UTC] PHP Stack trace:
+[03-Apr-2020 13:27:21 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[03-Apr-2020 13:27:21 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[03-Apr-2020 13:27:21 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[03-Apr-2020 13:27:21 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[03-Apr-2020 13:27:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php on line 35
+[03-Apr-2020 13:27:25 UTC] PHP Stack trace:
+[03-Apr-2020 13:27:25 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[03-Apr-2020 13:27:25 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[03-Apr-2020 13:27:25 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[03-Apr-2020 13:27:25 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[03-Apr-2020 13:27:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php on line 35
+[03-Apr-2020 13:27:48 UTC] PHP Stack trace:
+[03-Apr-2020 13:27:48 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[03-Apr-2020 13:27:48 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[03-Apr-2020 13:27:48 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[03-Apr-2020 13:27:48 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[03-Apr-2020 13:28:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php on line 35
+[03-Apr-2020 13:28:02 UTC] PHP Stack trace:
+[03-Apr-2020 13:28:02 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[03-Apr-2020 13:28:02 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[03-Apr-2020 13:28:02 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[03-Apr-2020 13:28:02 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[03-Apr-2020 13:28:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php on line 35
+[03-Apr-2020 13:28:40 UTC] PHP Stack trace:
+[03-Apr-2020 13:28:40 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[03-Apr-2020 13:28:40 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[03-Apr-2020 13:28:40 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[03-Apr-2020 13:28:40 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[03-Apr-2020 13:28:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php on line 35
+[03-Apr-2020 13:28:45 UTC] PHP Stack trace:
+[03-Apr-2020 13:28:45 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[03-Apr-2020 13:28:45 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[03-Apr-2020 13:28:45 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[03-Apr-2020 13:28:45 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[03-Apr-2020 13:32:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/archive-kurs.php on line 35
+[03-Apr-2020 13:32:01 UTC] PHP Stack trace:
+[03-Apr-2020 13:32:01 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[03-Apr-2020 13:32:01 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[03-Apr-2020 13:32:01 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[03-Apr-2020 13:32:01 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[03-Apr-2020 14:12:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_thumbnail() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php:125
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php on line 125
+[03-Apr-2020 14:30:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php on line 149
+[03-Apr-2020 14:37:47 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php on line 173
+[03-Apr-2020 15:37:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php on line 5 and exactly 1 expected in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php:4
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php(5): pageBanner()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#3 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#4 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 4
+[03-Apr-2020 15:38:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php on line 5 and exactly 1 expected in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php:4
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php(5): pageBanner()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#3 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#4 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 4
+[03-Apr-2020 15:41:49 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 6
+[03-Apr-2020 15:41:49 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 6
+[03-Apr-2020 15:42:37 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 6
+[03-Apr-2020 15:42:37 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 6
+[03-Apr-2020 15:42:44 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 6
+[03-Apr-2020 15:42:44 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 6
+[03-Apr-2020 15:43:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php on line 5 and exactly 1 expected in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php:4
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php(5): pageBanner()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#3 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#4 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 4
+[03-Apr-2020 15:44:36 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php on line 5 and exactly 1 expected in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php:4
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-mitglieder.php(5): pageBanner()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#3 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#4 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 4
+[03-Apr-2020 16:08:13 UTC] PHP Parse error:  syntax error, unexpected ''subtitle'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/index.php on line 6
+[04-Apr-2020 08:00:48 UTC] PHP Warning:  Ein unerwarteter Fehler ist aufgetreten. Es scheint etwas bei WordPress.org oder mit dieser Serverkonfiguration nicht zu stimmen. Sollte das Problem weiter bestehen, nutze bitte die <a href="https://de.wordpress.org/support/forums/">Support-Foren</a>. (WordPress konnte keine sichere Verbindung zu WordPress.org herstellen. Bitte kontaktiere deinen Server-Administrator.) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php on line 162
+[04-Apr-2020 08:00:48 UTC] PHP Stack trace:
+[04-Apr-2020 08:00:48 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:0
+[04-Apr-2020 08:00:48 UTC] PHP   2. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:138
+[04-Apr-2020 08:00:48 UTC] PHP   3. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[04-Apr-2020 08:00:48 UTC] PHP   4. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[04-Apr-2020 08:00:48 UTC] PHP   5. wp_version_check() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[04-Apr-2020 08:00:48 UTC] PHP   6. do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:242
+[04-Apr-2020 08:00:48 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:478
+[04-Apr-2020 08:00:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[04-Apr-2020 08:00:48 UTC] PHP   9. wp_maybe_auto_update() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[04-Apr-2020 08:00:48 UTC] PHP  10. WP_Automatic_Updater->run() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:611
+[04-Apr-2020 08:00:48 UTC] PHP  11. wp_version_check() /Users/Greta/Documents/GitHub/z10/app/public/wp-admin/includes/class-wp-automatic-updater.php:476
+[04-Apr-2020 08:00:48 UTC] PHP  12. trigger_error() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:162
+[04-Apr-2020 13:22:30 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php on line 19
+[04-Apr-2020 13:22:40 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php on line 18
+[04-Apr-2020 13:22:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php on line 28
+[04-Apr-2020 13:26:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php on line 32
+[04-Apr-2020 13:28:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_page_parent_ID() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php:39
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 39
+[04-Apr-2020 13:28:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_page_parent_ID() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php:39
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 39
+[04-Apr-2020 13:29:46 UTC] PHP Warning:  Use of undefined constant get_the_ID - assumed 'get_the_ID' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 39
+[04-Apr-2020 13:29:46 UTC] PHP Stack trace:
+[04-Apr-2020 13:29:46 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[04-Apr-2020 13:29:46 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[04-Apr-2020 13:29:46 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[04-Apr-2020 13:29:46 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[04-Apr-2020 13:33:07 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 39
+[04-Apr-2020 13:33:14 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 39
+[04-Apr-2020 13:36:13 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 39
+[04-Apr-2020 13:36:13 UTC] PHP Stack trace:
+[04-Apr-2020 13:36:13 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[04-Apr-2020 13:36:13 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[04-Apr-2020 13:36:13 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[04-Apr-2020 13:36:13 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[04-Apr-2020 13:46:58 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 18
+[04-Apr-2020 13:48:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php:12
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 12
+[04-Apr-2020 13:52:50 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 12
+[04-Apr-2020 14:05:43 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 33
+[04-Apr-2020 14:09:20 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page.php on line 14
+[04-Apr-2020 14:10:59 UTC] PHP Parse error:  syntax error, unexpected ''slug'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single-event.php on line 14
+[04-Apr-2020 14:12:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_object(), 0 passed in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single-event.php on line 14 and exactly 1 expected in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/post.php:1237
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single-event.php(14): get_post_type_object()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#3 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#4 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/post.php on line 1237
+[04-Apr-2020 14:17:19 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single.php on line 12
+[04-Apr-2020 14:18:16 UTC] PHP Parse error:  syntax error, unexpected 'the_time' (T_STRING), expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single.php on line 12
+[04-Apr-2020 14:18:40 UTC] PHP Parse error:  syntax error, unexpected 'd' (T_STRING), expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single.php on line 12
+[04-Apr-2020 14:20:27 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single.php on line 12
+[04-Apr-2020 14:21:34 UTC] PHP Parse error:  syntax error, unexpected '' . '' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single.php on line 12
+[04-Apr-2020 14:21:46 UTC] PHP Parse error:  syntax error, unexpected 'the_time' (T_STRING), expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single.php on line 12
+[04-Apr-2020 14:22:36 UTC] PHP Parse error:  syntax error, unexpected '.' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single.php on line 12
+[04-Apr-2020 14:25:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_time() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single.php:12
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single.php on line 12
+[04-Apr-2020 14:27:58 UTC] PHP Warning:  Use of undefined constant the_content - assumed 'the_content' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/single.php on line 15
+[04-Apr-2020 14:27:58 UTC] PHP Stack trace:
+[04-Apr-2020 14:27:58 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[04-Apr-2020 14:27:58 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[04-Apr-2020 14:27:58 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[04-Apr-2020 14:27:58 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[04-Apr-2020 14:33:29 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-sidemenu.php on line 20
+[04-Apr-2020 14:33:40 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-sidemenu.php on line 20
+[04-Apr-2020 14:36:41 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-sidemenu.php on line 25
+[04-Apr-2020 14:36:55 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-sidemenu.php on line 25
+[04-Apr-2020 14:36:56 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-sidemenu.php on line 25
+[04-Apr-2020 14:39:03 UTC] PHP Parse error:  syntax error, unexpected '$theParent' (T_VARIABLE), expecting ',' or ';' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-sidemenu.php on line 6
+[04-Apr-2020 14:39:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function prin_r() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-sidemenu.php:6
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(725): require()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(672): load_template('/Users/Greta/Do...', false)
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-spiele.php(11): get_template_part('template-parts/...')
+#4 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include('/Users/Greta/Do...')
+#5 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#6 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#7 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-sidemenu.php on line 6
+[04-Apr-2020 14:43:11 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page.php on line 18
+[05-Apr-2020 08:30:52 UTC] PHP Warning:  Use of undefined constant z10RegisterSearch - assumed 'z10RegisterSearch' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 3
+[05-Apr-2020 08:30:52 UTC] PHP Stack trace:
+[05-Apr-2020 08:30:52 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:30:52 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:30:52 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:13
+[05-Apr-2020 08:30:52 UTC] PHP   4. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-load.php:37
+[05-Apr-2020 08:30:52 UTC] PHP   5. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-config.php:86
+[05-Apr-2020 08:30:52 UTC] PHP   6. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-settings.php:514
+[05-Apr-2020 08:30:52 UTC] PHP   7. require() /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php:3
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 28
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 35
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 42
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 49
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 28
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 35
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 42
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 49
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 28
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 35
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 42
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 49
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 28
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 35
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 42
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 49
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 28
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 35
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 42
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 49
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 28
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 35
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 42
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 49
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 28
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 35
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 42
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 49
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 28
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 35
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 42
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Use of undefined constant get_post_type - assumed 'get_post_type' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 49
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->dispatch() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:342
+[05-Apr-2020 08:44:00 UTC] PHP  12. z10SearchResults() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1015
+[05-Apr-2020 08:44:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php:28) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1337
+[05-Apr-2020 08:44:00 UTC] PHP Stack trace:
+[05-Apr-2020 08:44:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[05-Apr-2020 08:44:00 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[05-Apr-2020 08:44:00 UTC] PHP   3. wp() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:16
+[05-Apr-2020 08:44:00 UTC] PHP   4. WP->main() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:1274
+[05-Apr-2020 08:44:00 UTC] PHP   5. WP->parse_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:735
+[05-Apr-2020 08:44:00 UTC] PHP   6. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php:388
+[05-Apr-2020 08:44:00 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[05-Apr-2020 08:44:00 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[05-Apr-2020 08:44:00 UTC] PHP   9. rest_api_loaded() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[05-Apr-2020 08:44:00 UTC] PHP  10. WP_REST_Server->serve_request() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:306
+[05-Apr-2020 08:44:00 UTC] PHP  11. WP_REST_Server->send_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:374
+[05-Apr-2020 08:44:00 UTC] PHP  12. WP_REST_Server->send_header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1349
+[05-Apr-2020 08:44:00 UTC] PHP  13. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php:1337
+[05-Apr-2020 09:03:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_time() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php:63
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php(1015): z10SearchResults(Object(WP_REST_Request))
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php(342): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php(306): WP_REST_Server->serve_request('/z10/v1/search')
+#3 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#6 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php(388): do_action_ref_array('pars in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 63
+[05-Apr-2020 09:34:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 52
+[05-Apr-2020 09:37:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on string in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php:49
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php(1015): z10SearchResults(Object(WP_REST_Request))
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api/class-wp-rest-server.php(342): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php(306): WP_REST_Server->serve_request('/z10/v1/search')
+#3 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#6 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp.php(388): do_action_ref_arra in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 49
+[05-Apr-2020 09:41:44 UTC] PHP Parse error:  syntax error, unexpected ''(vergangen)'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 60
+[05-Apr-2020 09:46:37 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 51
+[05-Apr-2020 09:46:48 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/search-route.php on line 51
+[05-Apr-2020 10:16:03 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/search.php on line 20
+[05-Apr-2020 10:17:16 UTC] PHP Parse error:  syntax error, unexpected 'is_page' (T_STRING), expecting '(' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/header.php on line 20
+[05-Apr-2020 10:17:25 UTC] PHP Parse error:  syntax error, unexpected 'is_page' (T_STRING), expecting '(' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/header.php on line 20
+[06-Apr-2020 09:55:27 UTC] PHP Parse error:  syntax error, unexpected 'confirm' (T_STRING) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kontakt.php on line 37
+[06-Apr-2020 09:56:41 UTC] PHP Parse error:  syntax error, unexpected 'confirm' (T_STRING) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kontakt.php on line 37
+[06-Apr-2020 09:57:01 UTC] PHP Parse error:  syntax error, unexpected '') ?>?token=%s">confirm</a> to' (T_CONSTANT_ENCAPSED_STRING) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kontakt.php on line 37
+[06-Apr-2020 09:58:16 UTC] PHP Parse error:  syntax error, unexpected '') ?>?token=%s">confirm</a> to' (T_CONSTANT_ENCAPSED_STRING) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kontakt.php on line 37
+[06-Apr-2020 09:58:48 UTC] PHP Parse error:  syntax error, unexpected '') ?>?token=%s">confirm</a> to' (T_CONSTANT_ENCAPSED_STRING) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kontakt.php on line 37
+[06-Apr-2020 10:01:03 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kontakt.php on line 44
+[06-Apr-2020 10:01:47 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kontakt.php on line 44
+[06-Apr-2020 10:01:49 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kontakt.php on line 44
+[06-Apr-2020 10:21:05 UTC] PHP Fatal error:  Uncaught Error: Class 'ActionScheduler_ActionFactory' not found in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php:17
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/functions.php(30): ActionScheduler::factory()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/migration/Scheduler.php(89): as_schedule_single_action(1586168465, 'action_schedule...', Array, 'action-schedule...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/migration/Controller.php(99): Action_Scheduler\Migration\Scheduler->schedule_migration()
+#3 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php(285): Action_Scheduler\Migration\Controller->schedule_migration()
+#4 /Users/Greta/Documents/Git in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/plugins/wpforms-lite/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php on line 17
+[06-Apr-2020 10:21:05 UTC] PHP Stack trace:
+[06-Apr-2020 10:21:05 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/wp-admin/admin-ajax.php:0
+[06-Apr-2020 10:21:05 UTC] PHP   2. do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-admin/admin-ajax.php:175
+[06-Apr-2020 10:21:05 UTC] PHP   3. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:478
+[06-Apr-2020 10:21:05 UTC] PHP   4. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[06-Apr-2020 10:21:05 UTC] PHP   5. wp_ajax_delete_plugin() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[06-Apr-2020 10:21:05 UTC] PHP   6. wp_send_json_success() /Users/Greta/Documents/GitHub/z10/app/public/wp-admin/includes/ajax-actions.php:4555
+[06-Apr-2020 10:21:05 UTC] PHP   7. wp_send_json() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:4056
+[06-Apr-2020 10:21:05 UTC] PHP   8. wp_die() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:4032
+[06-Apr-2020 10:21:05 UTC] PHP   9. _ajax_wp_die_handler() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/functions.php:3348
+[06-Apr-2020 10:52:00 UTC] PHP Fatal error:  Cannot redeclare redirectSubsToFrontend() (previously declared in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php:139) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 156
+[06-Apr-2020 10:52:00 UTC] PHP Stack trace:
+[06-Apr-2020 10:52:00 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/wp-admin/user-edit.php:0
+[06-Apr-2020 10:52:00 UTC] PHP   2. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-admin/user-edit.php:10
+[06-Apr-2020 10:52:00 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-admin/admin.php:34
+[06-Apr-2020 10:52:00 UTC] PHP   4. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-load.php:37
+[06-Apr-2020 10:52:00 UTC] PHP   5. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-config.php:86
+[06-Apr-2020 10:59:24 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 167
+[06-Apr-2020 10:59:44 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 167
+[06-Apr-2020 10:59:47 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 167
+[06-Apr-2020 10:59:51 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 167
+[06-Apr-2020 12:24:53 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php on line 32
+[06-Apr-2020 12:28:45 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php on line 34
+[06-Apr-2020 12:40:38 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php on line 46
+[06-Apr-2020 12:42:36 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php on line 37
+[06-Apr-2020 12:44:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 20
+[06-Apr-2020 12:44:06 UTC] PHP Stack trace:
+[06-Apr-2020 12:44:06 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 12:44:06 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 12:44:06 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[06-Apr-2020 12:44:06 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[06-Apr-2020 12:44:06 UTC] PHP   5. get_template_part() /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php:53
+[06-Apr-2020 12:44:06 UTC] PHP   6. locate_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php:168
+[06-Apr-2020 12:44:06 UTC] PHP   7. load_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:672
+[06-Apr-2020 12:44:06 UTC] PHP   8. require() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:725
+[06-Apr-2020 12:44:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php:53
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php on line 53
+[06-Apr-2020 12:44:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 20
+[06-Apr-2020 12:44:45 UTC] PHP Stack trace:
+[06-Apr-2020 12:44:45 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 12:44:45 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 12:44:45 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[06-Apr-2020 12:44:45 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[06-Apr-2020 12:44:45 UTC] PHP   5. get_template_part() /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php:54
+[06-Apr-2020 12:44:45 UTC] PHP   6. locate_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php:168
+[06-Apr-2020 12:44:45 UTC] PHP   7. load_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:672
+[06-Apr-2020 12:44:45 UTC] PHP   8. require() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:725
+[06-Apr-2020 12:57:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php on line 22
+[06-Apr-2020 12:57:17 UTC] PHP Stack trace:
+[06-Apr-2020 12:57:17 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 12:57:17 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 12:57:17 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[06-Apr-2020 12:57:17 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[06-Apr-2020 12:57:17 UTC] PHP   5. get_template_part() /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:31
+[06-Apr-2020 12:57:17 UTC] PHP   6. locate_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php:168
+[06-Apr-2020 12:57:17 UTC] PHP   7. load_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:672
+[06-Apr-2020 12:57:17 UTC] PHP   8. require() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:725
+[06-Apr-2020 12:57:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php on line 22
+[06-Apr-2020 12:57:23 UTC] PHP Stack trace:
+[06-Apr-2020 12:57:23 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 12:57:23 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 12:57:23 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[06-Apr-2020 12:57:23 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[06-Apr-2020 12:57:23 UTC] PHP   5. get_template_part() /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:31
+[06-Apr-2020 12:57:23 UTC] PHP   6. locate_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php:168
+[06-Apr-2020 12:57:23 UTC] PHP   7. load_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:672
+[06-Apr-2020 12:57:23 UTC] PHP   8. require() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:725
+[06-Apr-2020 13:59:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php on line 19
+[06-Apr-2020 13:59:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php on line 19
+[06-Apr-2020 13:59:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/inc/anmeldung-route.php on line 19
+[06-Apr-2020 14:33:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 58
+[06-Apr-2020 14:33:56 UTC] PHP Stack trace:
+[06-Apr-2020 14:33:56 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 14:33:56 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 14:33:56 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[06-Apr-2020 14:33:56 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[06-Apr-2020 14:33:56 UTC] PHP   5. get_template_part() /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php:33
+[06-Apr-2020 14:33:56 UTC] PHP   6. locate_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php:168
+[06-Apr-2020 14:33:56 UTC] PHP   7. load_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:672
+[06-Apr-2020 14:33:56 UTC] PHP   8. require() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:725
+[06-Apr-2020 14:33:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 58
+[06-Apr-2020 14:33:56 UTC] PHP Stack trace:
+[06-Apr-2020 14:33:56 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[06-Apr-2020 14:33:56 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[06-Apr-2020 14:33:56 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[06-Apr-2020 14:33:56 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[06-Apr-2020 14:33:56 UTC] PHP   5. get_template_part() /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php:33
+[06-Apr-2020 14:33:56 UTC] PHP   6. locate_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php:168
+[06-Apr-2020 14:33:56 UTC] PHP   7. load_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:672
+[06-Apr-2020 14:33:56 UTC] PHP   8. require() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:725
+[06-Apr-2020 14:57:39 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-meine-anmeldungen.php on line 23
+[06-Apr-2020 14:57:57 UTC] PHP Parse error:  syntax error, unexpected '/' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-meine-anmeldungen.php on line 29
+[06-Apr-2020 14:58:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-meine-anmeldungen.php on line 42

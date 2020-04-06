@@ -1047,7 +1047,7 @@ p, li {
 
 
 .generic-content .like-box {
-  float: right;
+  float: left;
   font-size: 1rem;
   background-color: #EDEDED;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
@@ -1055,7 +1055,7 @@ p, li {
   padding: 10px 10px 10px 25px;
   border-radius: 4px;
   cursor: pointer;
-  margin: 0 0 30px 30px;
+  margin: 10px 0 30px 0px;
   position: relative;
 }
 
@@ -1128,9 +1128,9 @@ body.login {
 
 .login h1 a {
   color: #0D3B66;
+  background-image: none;
   font-size: 30px;
   font-weight: 300;
-  background-image: none;
   width: auto;
   height: auto;
   text-indent: 0;
@@ -2356,7 +2356,7 @@ body.admin-bar .search-overlay {
   padding-left: 107px;
   min-height: 77px;
   padding-bottom: 1px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 

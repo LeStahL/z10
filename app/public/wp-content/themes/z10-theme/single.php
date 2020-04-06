@@ -1,22 +1,18 @@
 <?php get_header(); 
 
 while(have_posts()) {
-	the_post(); ?>
+	the_post(); 
+  pageBanner();
+  ?>
 
-   <div class="page-banner">
-    <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/generic_background_1.jpg');?>);"></div>
-    <div class="page-banner__content container container--narrow">
-      <h1 class="page-banner__title"><?php the_title();?></h1>
-      <div class="page-banner__intro">
-        <p>Dont forget to replace me later</p>
-      </div>
-    </div>  
-  </div>
+  <div class="container container--narrow page-section"> <?php
+    single_metabox(array(
+      'parentUrl' => '/news', 
+      'parentName' => 'News',
+      'title' => 'Am ' . get_the_time('d.n.y') . ' gepostet'
+    ));
 
-  <div class="container container--narrow page-section">
-  	<div class="metabox metabox--position-up metabox--with-home-link">
-	      	<p><a class="metabox__blog-home-link" href="<?php echo site_url('/news');?>"><i class="fa fa-home" aria-hidden="true"></i> News </a> <span class="metabox__main">Am <?php the_time('d.n.y');?> gepostet</span></p>
-	    	</div>
+    the_content(); ?>
 
 
   </div>

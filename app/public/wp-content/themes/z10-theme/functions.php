@@ -1,16 +1,77 @@
 <?php
 
+require get_theme_file_path('/inc/anmeldung-route.php');
+require get_theme_file_path('/inc/search-route.php');
+
+function z10_custom_rest() {
+	register_rest_field('post', 'authorName', array(
+		'get_callback' => function() {return get_the_author();}
+	));
+}
+
+add_action('rest_api_init', 'z10_custom_rest');
+
+function pageBanner($args=NULL){
+	if (!$args['title']) {
+		$args['title'] = get_the_title();
+	}
+
+	if (!$args['subtitle']) {
+		$args['subtitle'] = get_field('page_banner_subtitle');
+	}
+
+	if (!$args['photo']) {
+		if (get_field('page_banner_background_image')) {
+			$args['photo'] = get_field('page_banner_background_image') ['sizes'] ['pageBanner'];
+		} else {
+			$args['photo'] = get_theme_file_uri('/images/generic_background_1.jpg');
+		}
+	}
+		?>
+		<div class="page-banner">
+	  <div class="page-banner__bg-image" style="background-image: url(<?php echo $args['photo'] ;?>);"></div>
+	  <div class="page-banner__content container container--narrow">
+	    <h1 class="page-banner__title"><?php echo $args['title'];?></h1>
+	    <div class="page-banner__intro">
+	      <p><?php echo $args['subtitle']; ?></p>
+	    </div>
+	  </div>  
+	</div>
+<?php }
+
+
+
+function single_metabox($args=NULL) { 
+	if (!$args['title']) {
+		$args['title'] = get_the_title();
+	}?>
+
+	<div class="metabox metabox--position-up metabox--with-home-link">
+    <p><a class="metabox__blog-home-link" href="<?php echo site_url($args['parentUrl']);?>"><i class="fa fa-home" aria-hidden="true"></i> <?php echo $args['parentName'];?> </a> <span class="metabox__main"><?php echo $args['title'];?></span></p>
+  </div> <?php
+}
+
+
+
+
 function z10_files() {
+	wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyB0NKanlSrlnqtrZnCI-cViW3JGp875_A0', NULL, microtime(), true);
 	wp_enqueue_script('main-z10-js', get_theme_file_uri('/js/scripts-bundled.js'), NULL, microtime(), true);
 	wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
 	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 	wp_enqueue_style('z10_main_styles', get_stylesheet_uri(), NULL, microtime());
+	wp_localize_script('main-z10-js', 'z10Data', array(
+		'root_url' => get_site_url()
+	));
 }
 
 add_action('wp_enqueue_scripts', 'z10_files');
 
 function z10_features() {
 	add_theme_support('title-tag');
+	add_theme_support('post-thumbnails');
+	add_image_size('mitgliedBild', 500, 540, true);
+	add_image_size('pageBanner', 1500, 350, true);
 }
 
 
@@ -48,3 +109,69 @@ function wpb_change_title_text( $title ){
   
 add_filter( 'enter_title_here', 'wpb_change_title_text' );
 
+
+function z10MapKey($api){
+	$api['key'] = 'AIzaSyB0NKanlSrlnqtrZnCI-cViW3JGp875_A0';
+	return $api;
+}
+
+add_filter('acf/fields/google_map/api', 'z10MapKey');
+
+add_action( 'init', 'cp_change_post_object' );
+// Change dashboard Posts to News
+function cp_change_post_object() {
+    $get_post_type = get_post_type_object('post');
+    $labels = $get_post_type->labels;
+        $labels->name = 'News';
+        $labels->singular_name = 'News';
+        $labels->edit_item = 'Bearbeite News';
+        $labels->view_item = 'Zeige News';
+        $labels->search_items = 'Suche News';
+        $labels->not_found = 'Keine News gefunden';
+        $labels->not_found_in_trash = 'Keine News gefunden';
+        $labels->all_items = 'Alle News';
+        $labels->menu_name = 'News';
+        $labels->name_admin_bar = 'News';
+}
+
+//Redirect Subscriber accounts out of admin and onto homepage
+add_action('admin_init', 'redirectSubsToFrontend');
+
+function redirectSubsToFrontend() {
+	$ourCurrentUser = wp_get_current_user();
+
+	if (count($ourCurrentUser->roles) == 1 AND $ourCurrentUser->roles[0] == 'subscriber') {
+		wp_redirect(site_url('/'));
+		exit;
+	}
+}
+
+add_action('wp_loaded', 'noSubsAdminBar');
+
+function noSubsAdminBar() {
+	$ourCurrentUser = wp_get_current_user();
+
+	if (count($ourCurrentUser->roles) == 1 AND $ourCurrentUser->roles[0] == 'subscriber') {
+		show_admin_bar(false);
+	}
+}
+
+//Customize Login Screen
+add_filter('login_headerurl', 'ourHeaderUrl' );
+
+function ourHeaderUrl() {
+	return esc_url(site_url('/'));
+}
+
+add_action('login_enqueue_scripts', 'ourLoginCSS'); 
+
+function ourLoginCSS(){
+	wp_enqueue_style('z10_main_styles', get_stylesheet_uri());
+	wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
+}
+
+add_filter('login_headertitle', 'ourLoginTitle');
+
+function ourLoginTitle() {
+	return get_bloginfo('name');
+}

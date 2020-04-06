@@ -21,9 +21,9 @@ body.login {
 
 .login h1 a {
   color: $mainBlue;
+  background-image: none;
   font-size: 30px;
   font-weight: 300;
-  background-image: none;
   width: auto;
   height: auto;
   text-indent: 0;
