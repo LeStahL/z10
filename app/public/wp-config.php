@@ -30,15 +30,11 @@ if (file_exists(dirname(__FILE__) . '/local.php')) {
 	// Live database settings
 	define( 'DB_NAME', 'gretah80_z10data' );
 	define( 'DB_USER', 'gretah80_greta' );
-	define( 'DB_PASSWORD', '13_?~DT0l@ke' );
+	define( 'DB_PASSWORD', 'O;;Q5?InwG0v' );
 	define( 'DB_HOST', 'localhost' );
 }
 
 
-define( 'DB_NAME', 'local' );
-define( 'DB_USER', 'root' );
-define( 'DB_PASSWORD', 'root' );
-define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
