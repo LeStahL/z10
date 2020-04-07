@@ -55,6 +55,26 @@ function single_metabox($args=NULL) {
   </div> <?php
 }
 
+function header_main($args=NULL) { ?>
+
+	<li <?php if (is_page($args['name']) or wp_get_post_parent_id(0)== $args['id'] or get_post_type() == $args['post_type']) echo 'class=" current-menu-item"' ;?>><div <?php if ($args['id'] != 1000) echo 'class="dropdown"' ;?> ><a href="<?php echo site_url($args['slug']);?>" class="dropbtn" ><?php echo $args['title']; ?></a>
+		<?php header_sub(array('parentID' => $args['id'])); ?>
+	</div></li> <?php
+}
+
+
+function header_sub($args=NULL){ ?>
+	<div class="dropdown-content">
+    <ul> <?php
+      wp_list_pages(array(
+        'title_li' => NULL, 
+        'child_of' => $args['parentID'],
+        'sort_column' => 'menu-order'
+        ));?>
+    </ul>
+  </div> <?php
+}
+
 
 
 
@@ -200,5 +220,7 @@ function makeNotePrivate($data, $postarr) {
 	return $data;
 }
 
+
+add_filter('allow_major_auto_core_updates', '__return_true');  //Enable major updates
 
 

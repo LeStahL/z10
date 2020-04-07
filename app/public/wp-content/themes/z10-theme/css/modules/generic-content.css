@@ -13,9 +13,10 @@
     font-weight: 300;
     margin-top: 0;
     margin-bottom: 1rem;
+    text-transform: uppercase;
   }
 
-  h1 {font-size: 3.6rem}
+  h1 {font-size: 4.6rem}
   h2 {font-size: 3.1rem}
   h3 {font-size: 2.6rem}
   h4 {font-size: 2.1rem}

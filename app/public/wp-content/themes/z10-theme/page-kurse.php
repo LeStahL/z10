@@ -6,7 +6,7 @@ pageBanner(); ?>
   <div class="container container--narrow page-section">	
 
   <?php 
-  get_template_part('template-parts/content-sidemenu');   
+  // get_template_part('template-parts/content-sidemenu');   
 
 
   	$today = date('Ymd');

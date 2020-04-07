@@ -1340,3 +1340,52 @@ Stack trace:
 [06-Apr-2020 21:11:41 UTC] PHP  12. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:206
 [06-Apr-2020 21:11:41 UTC] PHP  13. rest_send_cors_headers() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:289
 [06-Apr-2020 21:11:41 UTC] PHP  14. header() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/rest-api.php:593
+[07-Apr-2020 13:58:51 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page.php on line 25
+[07-Apr-2020 13:59:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wpb_list_child_pages() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page.php:25
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page.php on line 25
+[07-Apr-2020 14:03:08 UTC] PHP Parse error:  syntax error, unexpected ''post_title'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page.php on line 37
+[07-Apr-2020 14:06:24 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page.php on line 37
+[07-Apr-2020 14:06:24 UTC] PHP Stack trace:
+[07-Apr-2020 14:06:24 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[07-Apr-2020 14:06:24 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[07-Apr-2020 14:06:24 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[07-Apr-2020 14:06:24 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[07-Apr-2020 14:06:39 UTC] PHP Parse error:  syntax error, unexpected ''ID'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page.php on line 37
+[07-Apr-2020 14:06:55 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page.php:37
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page.php on line 37
+[07-Apr-2020 14:09:16 UTC] PHP Fatal error:  Cannot use [] for reading in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page.php on line 37
+[07-Apr-2020 14:09:16 UTC] PHP Stack trace:
+[07-Apr-2020 14:09:16 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[07-Apr-2020 14:09:16 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[07-Apr-2020 14:09:16 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[07-Apr-2020 14:25:08 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/header.php on line 35
+[07-Apr-2020 14:53:30 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 60
+[07-Apr-2020 14:59:42 UTC] PHP Parse error:  syntax error, unexpected 'post_type' (T_STRING) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 59
+[07-Apr-2020 15:00:02 UTC] PHP Parse error:  syntax error, unexpected 'slug' (T_STRING), expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 59
+[07-Apr-2020 15:05:40 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/header.php on line 25
+[07-Apr-2020 15:46:54 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 230
+[07-Apr-2020 15:48:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 230
+[07-Apr-2020 15:48:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 230
+[07-Apr-2020 15:49:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function header_sub() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php:61
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/header.php(20): header_main(Array)
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(723): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(672): load_template('/Users/Greta/Do...', true)
+#3 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php(41): locate_template(Array, true)
+#4 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php(3): get_header()
+#5 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include('/Users/Greta/Do...')
+#6 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#7 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): re in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 61
+[07-Apr-2020 15:51:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 62
+[07-Apr-2020 15:51:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 230
+[07-Apr-2020 15:52:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 61

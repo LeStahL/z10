@@ -9,11 +9,11 @@ while(have_posts()) {
 
   <div class="container container--narrow page-section">
 
-  	<?php 
+<!-- <?php 
     get_template_part('template-parts/content', 'metabox');
     get_template_part('template-parts/content-sidemenu');  	
   	
-    ?>
+    ?> -->
 
     <div class="generic-content">
       <?php the_content(); ?>
@@ -21,6 +21,8 @@ while(have_posts()) {
   </div>
 
 
-	<?php }
+	<?php
+}
+
 
 get_footer(); ?>

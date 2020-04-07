@@ -7,10 +7,10 @@ pageBanner();
 ?>
   <div class="container container--narrow page-section">	
 
-  <?php 
+<!--   <?php 
   get_template_part('template-parts/content', 'metabox');
   get_template_part('template-parts/content', 'sidemenu');
-  ?>
+  ?> -->
 
   
   	<h2 class="headline headline--small-plus">Aktive Mitglieder</h2>

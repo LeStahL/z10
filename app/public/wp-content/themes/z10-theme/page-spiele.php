@@ -6,9 +6,9 @@ pageBanner(); ?>
 
   <div class="container container--narrow page-section">	
 
-  	<?php 
+<!--   	<?php 
     get_template_part('template-parts/content', 'metabox');
-    get_template_part('template-parts/content-sidemenu'); ?>
+    get_template_part('template-parts/content-sidemenu'); ?> -->
   	
 
   	<p>Ihr könnt die Spiele bei uns im Café ausleihen und spielen - nahezu 200 Spiele und Erweiterungen stehen euch dazu zur Verfügung, darunter auch alle Spiele des Jahres. Um Spiele aus dem Spieleschrank zu erhalten, fragt einfach beim Ausschänker nach. Ihr habt herausgefunden, dass ein Teil fehlt? Dann teilt es uns mit, damit wir Ersatz besorgen können :) .</p>

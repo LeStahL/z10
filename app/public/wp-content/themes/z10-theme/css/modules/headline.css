@@ -3,6 +3,10 @@
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
 
+  &--main-title {
+    text-transform: uppercase;
+  }
+
   &--large {
     font-size: 3.6rem;
     @mixin atSmall {
@@ -17,7 +21,9 @@
 
   &--medium {
     font-size: 1.9rem;
+    margin-top: 2rem;
     margin-bottom: .75rem;
+    font-weight: 500;
     @mixin atSmall {
       font-size: 3.125rem;
     }
@@ -33,6 +39,14 @@
   &--small {
     font-size: 1.2rem;
     margin-bottom: 1.9rem;
+    @mixin atSmall {
+      font-size: 1.6875rem;
+    }
+  }
+
+  &--test {
+    font-size: 4rem;
+    text-transform: uppercase;
     @mixin atSmall {
       font-size: 1.6875rem;
     }
@@ -56,5 +70,7 @@
   &--post-title a:hover {
     text-decoration: underline;
   }
+
+  
 
 }
