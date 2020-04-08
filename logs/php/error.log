@@ -1389,3 +1389,60 @@ Stack trace:
 [07-Apr-2020 15:51:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 62
 [07-Apr-2020 15:51:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 230
 [07-Apr-2020 15:52:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 61
+[08-Apr-2020 05:10:32 UTC] PHP Warning:  Ein unerwarteter Fehler ist aufgetreten. Es scheint etwas bei WordPress.org oder mit dieser Serverkonfiguration nicht zu stimmen. Sollte das Problem weiter bestehen, nutze bitte die <a href="https://de.wordpress.org/support/forums/">Support-Foren</a>. (WordPress konnte keine sichere Verbindung zu WordPress.org herstellen. Bitte kontaktiere deinen Server-Administrator.) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php on line 388
+[08-Apr-2020 05:10:32 UTC] PHP Stack trace:
+[08-Apr-2020 05:10:32 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:0
+[08-Apr-2020 05:10:32 UTC] PHP   2. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:138
+[08-Apr-2020 05:10:32 UTC] PHP   3. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[08-Apr-2020 05:10:32 UTC] PHP   4. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[08-Apr-2020 05:10:32 UTC] PHP   5. wp_version_check() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[08-Apr-2020 05:10:32 UTC] PHP   6. do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:242
+[08-Apr-2020 05:10:32 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:478
+[08-Apr-2020 05:10:32 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[08-Apr-2020 05:10:32 UTC] PHP   9. wp_maybe_auto_update() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[08-Apr-2020 05:10:32 UTC] PHP  10. WP_Automatic_Updater->run() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:611
+[08-Apr-2020 05:10:32 UTC] PHP  11. wp_update_plugins() /Users/Greta/Documents/GitHub/z10/app/public/wp-admin/includes/class-wp-automatic-updater.php:464
+[08-Apr-2020 05:10:32 UTC] PHP  12. trigger_error() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:388
+[08-Apr-2020 08:00:50 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/front-page.php on line 38
+[08-Apr-2020 08:07:19 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/front-page.php on line 40
+[08-Apr-2020 08:08:45 UTC] PHP Parse error:  syntax error, unexpected ''link'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/front-page.php on line 40
+[08-Apr-2020 08:08:53 UTC] PHP Warning:  Use of undefined constant link - assumed 'link' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/front-page.php on line 40
+[08-Apr-2020 08:08:53 UTC] PHP Stack trace:
+[08-Apr-2020 08:08:53 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[08-Apr-2020 08:08:53 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[08-Apr-2020 08:08:53 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[08-Apr-2020 08:08:53 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[08-Apr-2020 08:08:53 UTC] PHP Warning:  Use of undefined constant link - assumed 'link' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/front-page.php on line 40
+[08-Apr-2020 08:08:53 UTC] PHP Stack trace:
+[08-Apr-2020 08:08:53 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[08-Apr-2020 08:08:53 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[08-Apr-2020 08:08:53 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[08-Apr-2020 08:08:53 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[08-Apr-2020 08:08:53 UTC] PHP Warning:  Use of undefined constant link - assumed 'link' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/front-page.php on line 40
+[08-Apr-2020 08:08:53 UTC] PHP Stack trace:
+[08-Apr-2020 08:08:53 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[08-Apr-2020 08:08:53 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[08-Apr-2020 08:08:53 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[08-Apr-2020 08:08:53 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[08-Apr-2020 08:53:47 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/front-page.php on line 45
+[08-Apr-2020 08:53:47 UTC] PHP Stack trace:
+[08-Apr-2020 08:53:47 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[08-Apr-2020 08:53:47 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[08-Apr-2020 08:53:47 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[08-Apr-2020 08:53:47 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[08-Apr-2020 09:10:14 UTC] PHP Parse error:  syntax error, unexpected 'event_date' (T_STRING), expecting ')' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/functions.php on line 226
+[08-Apr-2020 16:26:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 41
+[08-Apr-2020 16:30:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:50
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 50
+[08-Apr-2020 16:34:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:60
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 60

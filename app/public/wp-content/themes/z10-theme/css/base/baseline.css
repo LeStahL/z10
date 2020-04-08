@@ -1,3 +1,7 @@
+/*import Fonts from Google*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600;700&family=Permanent+Marker&display=swap');
+
+
 @define-mixin atSmall {
   @media (min-width: 530px) {
     @mixin-content;
@@ -17,7 +21,9 @@
 }
 
 body {
-  color: #333;
+  /*color: #333;*/
+  color:rgb(220,220,220);
+  background-color: black;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
   position: relative;

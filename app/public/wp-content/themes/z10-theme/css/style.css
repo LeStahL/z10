@@ -30,6 +30,7 @@ Version: 1.0;
 @import "modules/generic-content";
 @import "modules/full-width-split";
 @import "modules/event-summary";
+@import "modules/event-template";
 @import "modules/page-links";
 @import "modules/acf-map";
 @import "modules/link-list";

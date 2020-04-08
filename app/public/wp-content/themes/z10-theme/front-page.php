@@ -12,42 +12,57 @@ get_header(); ?>
     </div>
   </div>
 
-  <div class="full-width-split group">
-    <div class="full-width-split__one">
-      <div class="full-width-split__inner">
-        <h2 class="headline headline--small-plus t-center">Nächste Veranstaltungen</h2>
+  <?php
+    $today = date('Ymd');
+    $homepageEvents = new WP_Query(array(
+      'posts_per_page' => -1,
+      'post_type' => 'event',
+      'meta_key' => 'event_date',
+      'orderby' => 'meta_value',       //'rand'
+      'order' => 'ASC',
+      'meta_query' => array(
+        array(
+          'key' => 'event_date',
+          'compare' => '>=',
+          'value' => $today,
+          'type' => 'numeric'
+        )
+      )
+    )); ?>
 
-        <?php
-          $today = date('Ymd');
-          $homepageEvents = new WP_Query(array(
-            'posts_per_page' => 3,
-            'post_type' => 'event',
-            'meta_key' => 'event_date',
-            'orderby' => 'meta_value',       //'rand'
-            'order' => 'ASC',
-            'meta_query' => array(
-              array(
-                'key' => 'event_date',
-                'compare' => '>=',
-                'value' => $today,
-                'type' => 'numeric'
-              )
-            )
-          ));
 
+  <div class="container" style="margin-bottom: 50px;">
+
+    <h2 class="headline headline--medium headline--post-title t-center"><a href="<?php echo site_url('/programm');?>">Kommende Veranstaltungen</a></h2>
+
+      <div class="for_slick_slider multiple-items">
+        <?php 
           while($homepageEvents->have_posts()) {
-            $homepageEvents->the_post(); 
-            get_template_part('template-parts/content', 'event'); 
+            $homepageEvents->the_post();
+            $eventDate = new DateTime(get_field('event_date'));
+            ?>
+        <div class="items">
+          <a href="<?php the_permalink();?>" class="slideImage nu" style="background-image: url(<?php echo get_field('event_image')['sizes']['large'];?>);">
+            <span class="slideTitle headline--tiny nu"><?php the_title();?></span>
+            <div class="t-center slideDate" href="#"><span class="slideDay"><?php echo $eventDate->format('j.n.');
+            ?></span>
+              <span class="event-summary__month" ><?php echo $eventDate->format('Y');
+            ?></span>
+            </div>
+            
+          </a>
+        </div> 
+        <?php
           }
-        ?>    
-        
-        <p class="t-center no-margin"><a href="<?php echo site_url('/programm');?>" class="btn btn--blue">Mehr</a></p>
+        ?>
+      </div>  
+  </div>
 
-      </div>
-    </div>
-    <div class="full-width-split__two">
-      <div class="full-width-split__inner">
-        <h2 class="headline headline--small-plus t-center">News</h2>
+
+
+  <div class="container container--narrow">
+        
+        <h2 class="headline headline--medium headline--post-title t-center"><a href="<?php echo site_url('/news');?>">News</a></h2>
         <?php 
           $homepagePosts = new WP_Query(array(
             'posts_per_page' => 2
@@ -66,47 +81,14 @@ get_header(); ?>
               <div class="event-summary__content">
                 <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink() ;?>"><?php the_title() ;?></a></h5>
                 <p><?php echo wp_trim_words(get_the_content(), 18); ?><a href="<?php the_permalink() ;?>" class="nu gray"> Read more</a></p>
-          </div>
-        </div>
-            
-          <?php } wp_reset_postdata();
+              </div>
+            </div>
+          <?php } 
+
         ?>
         
         <p class="t-center no-margin"><a href="<?php echo site_url('/news'); ?>" class="btn btn--yellow">Mehr</a></p>
-      </div>
-    </div>
   </div>
-
-<div class="hero-slider">
-  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpg') ;?>);">
-    <div class="hero-slider__interior container">
-      <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">Free Transportation</h2>
-        <p class="t-center">All students have free unlimited bus fare.</p>
-        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/apples.jpg') ;?>);">
-    <div class="hero-slider__interior container">
-      <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">An Apple a Day</h2>
-        <p class="t-center">Our dentistry program recommends eating apples.</p>
-        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg') ;?>);">
-    <div class="hero-slider__interior container">
-      <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">Free Food</h2>
-        <p class="t-center">Fictional University offers lunch plans for those in need.</p>
-        <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 
 <?php get_footer();

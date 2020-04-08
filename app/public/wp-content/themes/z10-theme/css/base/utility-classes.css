@@ -1,6 +1,6 @@
 .container {
   max-width: 1300px;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 0 16px;
   position: relative;
 }
@@ -63,4 +63,8 @@
 
 .hide {
   display: none;
+}
+
+.baloo-font {
+  font-family: 'Baloo Bhai 2', cursive;
 }

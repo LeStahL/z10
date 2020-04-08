@@ -32,9 +32,9 @@ function pageBanner($args=NULL){
 		}
 	}
 		?>
-		<div class="page-banner">
+		<div class="page-banner__page">
 	  <div class="page-banner__bg-image" style="background-image: url(<?php echo $args['photo'] ;?>);"></div>
-	  <div class="page-banner__content container container--narrow">
+	  <div class="page-banner__content-page container container--narrow">
 	    <h1 class="page-banner__title"><?php echo $args['title'];?></h1>
 	    <div class="page-banner__intro">
 	      <p><?php echo $args['subtitle']; ?></p>
@@ -82,6 +82,7 @@ function z10_files() {
 	wp_enqueue_script('googleMap', '//maps.googleapis.com/maps/api/js?key=AIzaSyB0NKanlSrlnqtrZnCI-cViW3JGp875_A0', NULL, microtime(), true);
 	wp_enqueue_script('main-z10-js', get_theme_file_uri('/js/scripts-bundled.js'), NULL, microtime(), true);
 	wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
+	// wp_enqueue_style('custom-google-fonts-again', '//fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 	wp_enqueue_style('z10_main_styles', get_stylesheet_uri(), NULL, microtime());
 	wp_localize_script('main-z10-js', 'z10Data', array(
@@ -97,6 +98,7 @@ function z10_features() {
 	add_theme_support('post-thumbnails');
 	add_image_size('mitgliedBild', 500, 540, true);
 	add_image_size('pageBanner', 1500, 350, true);
+	add_image_size('eventBild', 400, 564, true);
 }
 
 
@@ -222,5 +224,6 @@ function makeNotePrivate($data, $postarr) {
 
 
 add_filter('allow_major_auto_core_updates', '__return_true');  //Enable major updates
+
 
 

@@ -16,11 +16,22 @@
 
   &--large-medium {
     font-size: 5rem;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.5rem 0;
   }
 
+ /* &--large-medium-baloo {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 5rem;
+    margin-top: 2rem;
+    margin-bottom: .75rem;
+    font-weight: 500;
+    @mixin atSmall {
+      font-size: 10rem;
+    }
+  }*/
+
   &--medium {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     margin-top: 2rem;
     margin-bottom: .75rem;
     font-weight: 500;
@@ -57,20 +68,27 @@
   }
 
   &--tiny {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3875rem;
-    margin-bottom: .25rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 1.2rem;
   }
 
   &--post-title a {
-    color: $mainBlue;
+    color: $lightOrange;
     text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
   }
 
   &--post-title a:hover {
-    text-decoration: underline;
+    color: $myOrange;
   }
 
+  &--date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: rgb(130,130,130);
+    margin: 0;
+    padding: 0; 
+  }
   
 
 }

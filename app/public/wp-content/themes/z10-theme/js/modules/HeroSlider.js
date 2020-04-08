@@ -2,15 +2,21 @@ import $ from 'jquery';
 
 class HeroSlider {
   constructor() {
-    this.els = $(".hero-slider");
+    // this.els = $(".hero-slider");
+    this.els = $(".multiple-items");
     this.initSlider();
   }
 
   initSlider() {
     this.els.slick({
-      autoplay: true,
+      // autoplay: true,
       arrows: false,
-      dots: true
+      dots: true,
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      centerMode: true,
+      centerPadding: '0',
     });
   }
 }
