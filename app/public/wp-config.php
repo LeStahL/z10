@@ -28,9 +28,9 @@ if (file_exists(dirname(__FILE__) . '/local.php')) {
 	define( 'DB_HOST', 'localhost' );
 } else {
 	// Live database settings
-	define( 'DB_NAME', 'gretah80_z10data' );
+	define( 'DB_NAME', 'gretah80_z10' );
 	define( 'DB_USER', 'gretah80_greta' );
-	define( 'DB_PASSWORD', 'O;;Q5?InwG0v' );
+	define( 'DB_PASSWORD', 'k-xla{M4e)_~' );
 	define( 'DB_HOST', 'localhost' );
 }
 
