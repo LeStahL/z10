@@ -98,7 +98,7 @@
   height: 270px;
   background-size: 110% auto;
   position: relative;
-  background-position: center; 
+  background-position: top center; 
   transition: all .2s ease-in-out;
 }
 
@@ -112,7 +112,7 @@
   margin: auto;
   width: 50%;
   border: 2px solid $lightOrange;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   color:white;
   text-transform: uppercase;
   padding: 10px;
@@ -120,6 +120,9 @@
   position: relative;
   top: 80%;
   text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 
@@ -129,7 +132,7 @@
   color:white;
   border: 2px solid $lightOrange;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   text-transform: uppercase;
   padding: 10px 10px;
   text-align: center;
@@ -156,10 +159,3 @@
     font-size: 2.02rem;
     font-weight: 700;
   }
-
-
-
-
-
-
-

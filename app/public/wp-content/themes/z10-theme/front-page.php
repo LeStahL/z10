@@ -1,12 +1,17 @@
 <?php 
 
-get_header(); ?>
+get_header();
+$aMonthNamesDElong = [
+          'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
+          'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'
+      ];   
+ ?>
 
 <div class="page-banner">
   <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/seproSose20.png') ;?>);"></div>
     <div class="page-banner__content container t-center c-white">
       <img class="page-banner__logo-image" src="<?php echo get_theme_file_uri('/images/Z10-Logo.png') ;?>">
-      <h1 class="headline headline--medium">Das Studentenzentrum von Studis für Studis</h1>
+      <h1 class="page-banner__title-front">Das Studentenzentrum von Studis für Studis</h1>
       <h3 class="headline headline--small">oder auch die Kneipe, die keine Kneipe ist</h3>
       <!-- <a href="#" class="btn btn--large btn--blue">Find Your Major</a> -->
     </div>
@@ -72,15 +77,17 @@ get_header(); ?>
 
 
           while ($homepagePosts->have_posts()) {
-            $homepagePosts->the_post(); ?>
-            <div class="event-summary">
-              <a class="event-summary__date event-summary__date--beige t-center" href="<?php the_permalink() ;?>">
-                <span class="event-summary__month"><?php the_time('M') ;?></span>
-                <span class="event-summary__day"><?php the_time('d') ;?></span>  
-              </a>
+            $homepagePosts->the_post(); 
+
+            $monthDelong = $aMonthNamesDElong[get_the_time('n')-1]; 
+            $dateDe = get_the_time('d') . '. ' . $monthDelong . ' ' . get_the_time('Y'); ?>
+
+
+            <div>
               <div class="event-summary__content">
-                <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink() ;?>"><?php the_title() ;?></a></h5>
-                <p><?php echo wp_trim_words(get_the_content(), 18); ?><a href="<?php the_permalink() ;?>" class="nu gray"> Read more</a></p>
+                <h5 class=" headline headline--small"><a href="<?php echo site_url('/news') ;?>"><?php the_title() ;?></a></h5>
+                <h6 class="headline--date"><?php echo $dateDe ;?></h6>
+                <p><?php echo wp_trim_words(get_the_content(), 60); ?><a href="<?php echo site_url('/news') ;?>" class="nu gray"> Weiterlesen</a></p>
               </div>
             </div>
           <?php } 
@@ -93,9 +100,3 @@ get_header(); ?>
 
 <?php get_footer();
 ?>
-
-
-
-
-
-

@@ -14,13 +14,13 @@
     font-weight: normal;
     text-align: center;
     padding: 20px 0;
-    background-color: $mainBlue;
+    background-color: $lightBlue;
     color: #FFF;
 
       a {
         color: #FFF;
         text-decoration: none;
-        background-color: $mainBlue;
+        background-color: $lightBlue;
       }
 
   }
@@ -37,7 +37,7 @@
   & .current_page_item {
     text-align: center;
     background-color: color($beige blackness(+11%) s(+50%));
-    color: $mainBlue;
+    color: $lightBlue;
     font-weight: bold;
   }
 
@@ -46,12 +46,12 @@
     text-align: center;
     padding: 17px 10px;
     text-decoration: none;
-    color: $mainBlue;
+    color: $lightBlue;
     transition: all .3s;
   }
 
   li a:hover {
-    color: color($mainBlue b(+6%));
+    color: color($lightBlue b(+6%));
     background-color: color($beige blackness(+18%) s(+65%));
   }
 }

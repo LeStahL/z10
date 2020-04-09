@@ -14,6 +14,12 @@
   }
 }
 
+@define-mixin atMediumMedium {
+  @media (min-width: 850px) {
+    @mixin-content;
+  }
+}
+
 @define-mixin atMedium {
   @media (min-width: 960px) {
     @mixin-content;
@@ -22,7 +28,7 @@
 
 body {
   /*color: #333;*/
-  color:rgb(220,220,220);
+  color:rgb(200,200,200);
   background-color: black;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
@@ -35,7 +41,7 @@ img {
 }
 
 a {
-  color: $mainBlue;
+  color: $lightBlue;
 }
 
 a:hover {

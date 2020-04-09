@@ -16,6 +16,13 @@ while(have_posts()) {
 
 
 
+    <section class="slider-area slider">
+      <div><img src="http://localhost:3000/wp-content/uploads/2020/04/NR42-500x540.jpeg"></div>
+      <div><img src="http://localhost:3000/wp-content/uploads/2020/04/NR42-500x540.jpeg"></div>
+      <div><img src="http://localhost:3000/wp-content/uploads/2020/04/NR42-500x540.jpeg"></div>
+      <div><img src="http://localhost:3000/wp-content/uploads/2020/04/NR42-500x540.jpeg"></div>
+      <div><img src="http://localhost:3000/wp-content/uploads/2020/04/NR42-500x540.jpeg"></div>
+    </section>
 
 
     <div class="generic-content">

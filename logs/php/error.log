@@ -1446,3 +1446,29 @@ Stack trace:
 #2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
 #3 {main}
   thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 60
+[09-Apr-2020 17:10:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/front-page.php:77
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/front-page.php on line 77
+[09-Apr-2020 17:12:21 UTC] PHP Warning:  A non-numeric value encountered in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/front-page.php on line 82
+[09-Apr-2020 17:12:21 UTC] PHP Stack trace:
+[09-Apr-2020 17:12:21 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[09-Apr-2020 17:12:21 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[09-Apr-2020 17:12:21 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[09-Apr-2020 17:12:21 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[09-Apr-2020 17:12:21 UTC] PHP Warning:  A non-numeric value encountered in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/front-page.php on line 82
+[09-Apr-2020 17:12:21 UTC] PHP Stack trace:
+[09-Apr-2020 17:12:21 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[09-Apr-2020 17:12:21 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[09-Apr-2020 17:12:21 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[09-Apr-2020 17:12:21 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[09-Apr-2020 17:21:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/index.php:20
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/index.php on line 20

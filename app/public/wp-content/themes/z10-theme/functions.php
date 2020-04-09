@@ -98,7 +98,7 @@ function z10_features() {
 	add_theme_support('post-thumbnails');
 	add_image_size('mitgliedBild', 500, 540, true);
 	add_image_size('pageBanner', 1500, 350, true);
-	add_image_size('eventBild', 400, 564, true);
+	add_image_size('eventBild', 400, 564, array( 'center', 'top' ));
 }
 
 
