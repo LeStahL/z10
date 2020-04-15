@@ -1472,3 +1472,186 @@ Stack trace:
 #2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
 #3 {main}
   thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/index.php on line 20
+[15-Apr-2020 11:00:43 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 45
+[15-Apr-2020 11:03:30 UTC] PHP Warning:  Use of undefined constant slug - assumed 'slug' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 45
+[15-Apr-2020 11:03:30 UTC] PHP Stack trace:
+[15-Apr-2020 11:03:30 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[15-Apr-2020 11:03:30 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[15-Apr-2020 11:03:30 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[15-Apr-2020 11:03:30 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[15-Apr-2020 11:03:30 UTC] PHP Warning:  Use of undefined constant slug - assumed 'slug' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 45
+[15-Apr-2020 11:03:30 UTC] PHP Stack trace:
+[15-Apr-2020 11:03:30 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[15-Apr-2020 11:03:30 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[15-Apr-2020 11:03:30 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[15-Apr-2020 11:03:30 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[15-Apr-2020 11:03:30 UTC] PHP Warning:  Use of undefined constant slug - assumed 'slug' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 45
+[15-Apr-2020 11:03:30 UTC] PHP Stack trace:
+[15-Apr-2020 11:03:30 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[15-Apr-2020 11:03:30 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[15-Apr-2020 11:03:30 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[15-Apr-2020 11:03:30 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[15-Apr-2020 11:03:30 UTC] PHP Warning:  Use of undefined constant slug - assumed 'slug' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 45
+[15-Apr-2020 11:03:30 UTC] PHP Stack trace:
+[15-Apr-2020 11:03:30 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[15-Apr-2020 11:03:30 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[15-Apr-2020 11:03:30 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[15-Apr-2020 11:03:30 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[15-Apr-2020 11:03:30 UTC] PHP Warning:  Use of undefined constant slug - assumed 'slug' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 45
+[15-Apr-2020 11:03:30 UTC] PHP Stack trace:
+[15-Apr-2020 11:03:30 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[15-Apr-2020 11:03:30 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[15-Apr-2020 11:03:30 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[15-Apr-2020 11:03:30 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[15-Apr-2020 11:04:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_slug() in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:45
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 45
+[15-Apr-2020 14:52:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:62
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 62
+[15-Apr-2020 14:52:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:62
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 62
+[15-Apr-2020 14:52:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:62
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 62
+[15-Apr-2020 14:53:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:62
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 62
+[15-Apr-2020 14:54:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 43
+[15-Apr-2020 14:57:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:62
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 62
+[15-Apr-2020 14:57:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:62
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 62
+[15-Apr-2020 15:02:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:62
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 62
+[15-Apr-2020 15:03:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php:62
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#2 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#3 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php on line 62
+[15-Apr-2020 15:11:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php:16
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(725): require()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(672): load_template('/Users/Greta/Do...', false)
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php(32): get_template_part('template-parts/...', 'event')
+#4 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include('/Users/Greta/Do...')
+#5 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#6 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#7 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php on line 16
+[15-Apr-2020 15:11:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php:16
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(725): require()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(672): load_template('/Users/Greta/Do...', false)
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php(32): get_template_part('template-parts/...', 'event')
+#4 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include('/Users/Greta/Do...')
+#5 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#6 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#7 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php on line 16
+[15-Apr-2020 15:12:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php:16
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(725): require()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(672): load_template('/Users/Greta/Do...', false)
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php(32): get_template_part('template-parts/...', 'event')
+#4 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include('/Users/Greta/Do...')
+#5 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#6 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#7 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php on line 16
+[15-Apr-2020 15:13:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function format() on null in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php:16
+Stack trace:
+#0 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(725): require()
+#1 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php(672): load_template('/Users/Greta/Do...', false)
+#2 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-programm.php(32): get_template_part('template-parts/...', 'event')
+#4 /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php(106): include('/Users/Greta/Do...')
+#5 /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php(19): require_once('/Users/Greta/Do...')
+#6 /Users/Greta/Documents/GitHub/z10/app/public/index.php(17): require('/Users/Greta/Do...')
+#7 {main}
+  thrown in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-event.php on line 16
+[15-Apr-2020 15:28:57 UTC] PHP Parse error:  syntax error, unexpected '$teilnehmer' (T_VARIABLE), expecting ',' or ';' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 115
+[15-Apr-2020 15:36:35 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 116
+[15-Apr-2020 15:36:35 UTC] PHP Stack trace:
+[15-Apr-2020 15:36:35 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[15-Apr-2020 15:36:35 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[15-Apr-2020 15:36:35 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[15-Apr-2020 15:36:35 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[15-Apr-2020 15:36:35 UTC] PHP   5. get_template_part() /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php:32
+[15-Apr-2020 15:36:35 UTC] PHP   6. locate_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php:168
+[15-Apr-2020 15:36:35 UTC] PHP   7. load_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:672
+[15-Apr-2020 15:36:35 UTC] PHP   8. require() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:725
+[15-Apr-2020 15:39:54 UTC] PHP Parse error:  syntax error, unexpected '&' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 103
+[15-Apr-2020 15:40:26 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 132
+[15-Apr-2020 15:43:19 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 105
+[15-Apr-2020 16:11:45 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 137
+[15-Apr-2020 16:11:55 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 137
+[15-Apr-2020 16:11:58 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 137
+[15-Apr-2020 16:12:15 UTC] PHP Warning:  Use of undefined constant pastKurs - assumed 'pastKurs' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 136
+[15-Apr-2020 16:12:15 UTC] PHP Stack trace:
+[15-Apr-2020 16:12:15 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[15-Apr-2020 16:12:15 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[15-Apr-2020 16:12:15 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[15-Apr-2020 16:12:15 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[15-Apr-2020 16:12:15 UTC] PHP   5. get_template_part() /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php:33
+[15-Apr-2020 16:12:15 UTC] PHP   6. locate_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/general-template.php:168
+[15-Apr-2020 16:12:15 UTC] PHP   7. load_template() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:672
+[15-Apr-2020 16:12:15 UTC] PHP   8. require() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template.php:725
+[15-Apr-2020 16:16:50 UTC] PHP Catchable fatal error:  Object of class WP_Query could not be converted to string in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 33
+[15-Apr-2020 16:16:50 UTC] PHP Stack trace:
+[15-Apr-2020 16:16:50 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[15-Apr-2020 16:16:50 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[15-Apr-2020 16:16:50 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[15-Apr-2020 16:16:50 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[15-Apr-2020 16:17:14 UTC] PHP Warning:  Use of undefined constant pastKurse - assumed 'pastKurse' (this will throw an Error in a future version of PHP) in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 33
+[15-Apr-2020 16:17:14 UTC] PHP Stack trace:
+[15-Apr-2020 16:17:14 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/index.php:0
+[15-Apr-2020 16:17:14 UTC] PHP   2. require() /Users/Greta/Documents/GitHub/z10/app/public/index.php:17
+[15-Apr-2020 16:17:14 UTC] PHP   3. require_once() /Users/Greta/Documents/GitHub/z10/app/public/wp-blog-header.php:19
+[15-Apr-2020 16:17:14 UTC] PHP   4. include() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/template-loader.php:106
+[15-Apr-2020 16:23:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kurse.php on line 61
+[15-Apr-2020 16:25:30 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 32
+[15-Apr-2020 16:26:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 35
+[15-Apr-2020 16:28:14 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 105
+[15-Apr-2020 16:28:22 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 105

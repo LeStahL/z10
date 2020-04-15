@@ -12,7 +12,9 @@ $aMonthNamesDElong = [
     <div class="page-banner__content container t-center c-white">
       <img class="page-banner__logo-image" src="<?php echo get_theme_file_uri('/images/Z10-Logo.png') ;?>">
       <h1 class="page-banner__title-front">Das Studentenzentrum von Studis für Studis</h1>
-      <h3 class="headline headline--small">oder auch die Kneipe, die keine Kneipe ist</h3>
+      <div class="page-banner__intro t-center">
+        <p class="t-center">Kultur, Kommunikation, Konzerte, Kurse und viel mehr</p>
+      </div>
       <!-- <a href="#" class="btn btn--large btn--blue">Find Your Major</a> -->
     </div>
   </div>
@@ -36,8 +38,9 @@ $aMonthNamesDElong = [
     )); ?>
 
 
-  <div class="container" style="margin-bottom: 50px;">
+  <div class="container">
 
+    <h4 class="headline headline--tiny headline--post-section t-center p-top-large"><a href="<?php echo site_url('/programm');?>">/Programm</a></h4>
     <h2 class="headline headline--medium headline--post-title t-center"><a href="<?php echo site_url('/programm');?>">Kommende Veranstaltungen</a></h2>
 
       <div class="for_slick_slider multiple-items">
@@ -45,13 +48,14 @@ $aMonthNamesDElong = [
           while($homepageEvents->have_posts()) {
             $homepageEvents->the_post();
             $eventDate = new DateTime(get_field('event_date'));
+            $id = "programm/#anchor-" . $post->post_name;
             ?>
         <div class="items">
-          <a href="<?php the_permalink();?>" class="slideImage nu" style="background-image: url(<?php echo get_field('event_image')['sizes']['large'];?>);">
+          <a href="<?php echo $id;?>" class="slideImage nu" style="background-image: url(<?php echo get_field('event_image')['sizes']['large'];?>);">
             <span class="slideTitle headline--tiny nu"><?php the_title();?></span>
             <div class="t-center slideDate" href="#"><span class="slideDay"><?php echo $eventDate->format('j.n.');
             ?></span>
-              <span class="event-summary__month" ><?php echo $eventDate->format('Y');
+              <span class="slideMonth" ><?php echo $eventDate->format('Y');
             ?></span>
             </div>
             
@@ -66,35 +70,35 @@ $aMonthNamesDElong = [
 
 
   <div class="container container--narrow">
-        
-        <h2 class="headline headline--medium headline--post-title t-center"><a href="<?php echo site_url('/news');?>">News</a></h2>
-        <?php 
-          $homepagePosts = new WP_Query(array(
-            'posts_per_page' => 2
-            // 'category_name' => 'awards'
-            // 'post_type' => 'pages'
-          ));
+    <h4 class="headline headline--tiny headline--post-section t-center p-top-large"><a href="<?php echo site_url('/programm');?>">/News</a></h4>
+    <h2 class="headline headline--medium headline--post-title t-center p-bottom-large"><a href="<?php echo site_url('/news');?>">Neuigkeiten aus dem Z10</a></h2>
+    <?php 
+      $homepagePosts = new WP_Query(array(
+        'posts_per_page' => 2
+        // 'category_name' => 'awards'
+        // 'post_type' => 'pages'
+      ));
 
 
-          while ($homepagePosts->have_posts()) {
-            $homepagePosts->the_post(); 
+      while ($homepagePosts->have_posts()) {
+        $homepagePosts->the_post(); 
 
-            $monthDelong = $aMonthNamesDElong[get_the_time('n')-1]; 
-            $dateDe = get_the_time('d') . '. ' . $monthDelong . ' ' . get_the_time('Y'); ?>
+        $monthDelong = $aMonthNamesDElong[get_the_time('n')-1]; 
+        $dateDe = get_the_time('d') . '. ' . $monthDelong . ' ' . get_the_time('Y'); ?>
 
 
-            <div>
-              <div class="event-summary__content">
-                <h5 class=" headline headline--small"><a href="<?php echo site_url('/news') ;?>"><?php the_title() ;?></a></h5>
-                <h6 class="headline--date"><?php echo $dateDe ;?></h6>
-                <p><?php echo wp_trim_words(get_the_content(), 60); ?><a href="<?php echo site_url('/news') ;?>" class="nu gray"> Weiterlesen</a></p>
-              </div>
-            </div>
-          <?php } 
+        <div>
+          <div class="event-summary__content">
+            <h5 class=" headline headline--small"><a href="<?php echo site_url('/news') ;?>"><?php the_title() ;?></a></h5>
+            <h6 class="headline--date"><?php echo $dateDe ;?></h6>
+            <p class="p-bottom-large"><?php echo wp_trim_words(get_the_content(), 60); ?><a href="<?php echo site_url('/news') ;?>" class="nu gray"> Weiterlesen</a></p>
+          </div>
+        </div>
+      <?php } 
 
-        ?>
-        
-        <p class="t-center no-margin"><a href="<?php echo site_url('/news'); ?>" class="btn btn--yellow">Mehr</a></p>
+    ?>
+    
+    <p class="t-center no-margin"><a href="<?php echo site_url('/news'); ?>" class="btn btn--lightorange">Mehr</a></p>
   </div>
 
 

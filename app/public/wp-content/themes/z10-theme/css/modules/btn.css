@@ -1,12 +1,12 @@
 .btn {
   display: inline-block;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 7px;
   overflow: hidden;
   text-decoration: none;
   color: #FFF;
   font-size: 1.19rem;
-  padding: 12px 24px;
+  padding: 8px 15px;
   border: none;
   outline: none;
 
@@ -45,13 +45,13 @@
     background: linear-gradient(color($mainBlue b(-16%)), $mainBlue);
   }
 
-  &--yellow {
-    background-color: $mainYellow;
+  &--lightorange {
+    background-color: $lightOrange;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .22);
   }
 
-  &--yellow:hover {
-    background: linear-gradient($mainYellow, color($mainYellow b(+40%) s(+80%)));
+  &--lightorange:hover {
+    background: linear-gradient($lightOrange, color($lightOrange b(+40%) s(+80%)));
   }
 
   &--beige {

@@ -1,4 +1,4 @@
-.hero-slider {
+/*.hero-slider {
   position: relative;
 
   div {
@@ -30,7 +30,7 @@
     }
   }
 
-}
+}*/
 
 .slick-dots {
   z-index: 100;
@@ -78,15 +78,14 @@
 }
 
 
-
-
 .for_slick_slider {
   display: flex;
+  margin-bottom: 50px;
 }
 
 .for_slick_slider .items {
   width: 30%;
-  height: 250px;
+ /* height: 250px;*/
   margin: 50px auto; 
   position: relative;
 }
@@ -95,7 +94,8 @@
   display: block;
   margin: auto;
   width: 90%;
-  height: 270px;
+  padding-top: 55%;
+  /*height: 270px;*/
   background-size: 110% auto;
   position: relative;
   background-position: top center; 
@@ -109,16 +109,12 @@
 
 .for_slick_slider .items .slideTitle {
   display: block;
-  margin: auto;
-  width: 50%;
-  border: 2px solid $lightOrange;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
   color:white;
-  text-transform: uppercase;
   padding: 10px;
+  padding-top: 15px;
   text-align: center;
   position: relative;
-  top: 80%;
   text-decoration: none;
   white-space: nowrap;
   overflow: hidden;
@@ -128,11 +124,12 @@
 
 .for_slick_slider .items .slideDate {
   display: block;
-  /*background-image: linear-gradient(to right, rgba(0,0,0,0), #eb7d14);*/
+  height: 70px;
+  width: 70px;
   color:white;
   border: 2px solid $lightOrange;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
   padding: 10px 10px;
   text-align: center;
@@ -141,21 +138,33 @@
   right: 10px;
   overflow: hidden;
   text-decoration: none;
-  height: 60px;
-  width: 60px;
+  @mixin atSmallMedium {
+    height: 84px;
+    width: 84px;
+  }
 }
 
 
 
 .for_slick_slider .items .slideImage .slideDay {
     display: block;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 800;
     text-transform: uppercase;
     margin-top: 3px;
+    @mixin atSmallMedium {
+      font-size: 1.3rem;
+    }
   }
-&__day {
-    display: block;
-    font-size: 2.02rem;
-    font-weight: 700;
+
+
+
+.for_slick_slider .items .slideImage .slideMonth {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  @mixin atSmallMedium {
+    font-size: 1.5rem;
   }
+}

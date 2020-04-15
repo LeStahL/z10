@@ -32,7 +32,7 @@
 
   &--medium {
     font-size: 1.8rem;
-    margin-top: 2rem;
+    /*margin-top: 2rem;*/
     /*margin-bottom: .75rem;*/
     font-weight: 500;
     color:$lightOrange;
@@ -50,7 +50,7 @@
 
   &--small {
     font-size: 1.2rem;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     /*margin-bottom: 1.9rem;*/
     @mixin atSmall {
       font-size: 1.6875rem;
@@ -75,23 +75,59 @@
   }
 
   &--post-title a {
-    color: $lightOrange;
+    color: white;
     text-decoration: none;
-    font-family: 'Permanent Marker', cursive;
+    /*font-family: 'Permanent Marker', cursive;*/
     margin-bottom: 30px;
+    margin-top: 0;
   }
 
+  &--post-title a::after {
+  content: ".";
+  color: $lightOrange;
+}
+
   &--post-title a:hover {
-    color: $myOrange;
+    color: $lightOrange;
+  }
+
+   &--post-section a {
+    color: $lightOrange;
+    text-decoration: none;
+    font-weight: 200;
+    margin-top: 3rem;
+  }
+
+  &--post-section a:hover {
+    color: white;
   }
 
   &--date {
+    display: inline;
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     color: rgb(130,130,130);
     margin: 0;
     padding: 0;
     margin-bottom: 1rem; 
+    @mixin atMedium {
+      display: block;
+    }
+  }
+
+  &--kurs {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: rgb(130,130,130);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+
+    @mixin atMediumMedium{
+      display: block;
+    }
   }
   
 

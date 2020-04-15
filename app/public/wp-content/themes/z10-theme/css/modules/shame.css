@@ -243,8 +243,8 @@
 }
 
 /* Like Box */
-.generic-content .like-box {
-  float: left;
+.like-box {
+  float: right;
   font-size: 1rem;
   background-color: #EDEDED;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
@@ -252,11 +252,12 @@
   padding: 10px 10px 10px 25px;
   border-radius: 4px;
   cursor: pointer;
-  margin: 10px 0 30px 0px;
-  position: relative;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
-.generic-content .like-box:hover {
+.like-box:hover {
   background-color: #DEDEDE;
 }
 

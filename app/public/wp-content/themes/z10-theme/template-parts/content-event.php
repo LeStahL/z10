@@ -1,28 +1,50 @@
-<div class="event-summary">
-  <a class="event-summary__date t-center" href="#">
-    <span class="event-summary__month"><?php
-      $aMonthNamesDE = [
-          'Jan', 'Feb', 'Mrz', 'Apr', 'Mai', 'Jun',
-          'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'
-      ];
+<!-- define variables -->
 
-      $eventDate = new DateTime(get_field('event_date'));
-      echo $aMonthNamesDE[$eventDate->format('n')-1];
-    ?></span>
-    <span class="event-summary__day"><?php echo $eventDate->format('d') ;?></span>  
-  </a>
-  <div class="event-summary__content">
-    <h5 class="event-summary__title headline headline--tiny"><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h5>
-    <p><?php echo wp_trim_words(get_the_content(), 18); ?><a href="<?php the_permalink();?>" class="nu gray">Learn more</a></p>
-    <?php 
-    if (is_page('programm')) { ?>
-      <p>Betreuer:
-      <?php 
-        $relatedMitglied = get_field('orga'); 
-        foreach($relatedMitglied as $mitglied) { ?>
-          <a href="<?php echo get_the_permalink($mitglied);?> "> <?php echo get_the_title($mitglied) ;?></a> 
-        <?php } ?>
-      </p> <?php 
-    }?>
-  </div>
+<?php 
+$eventDate = new DateTime(get_field('event_date'));
+$aMonthNamesDE = [
+        'Jan', 'Feb', 'Mrz', 'Apr', 'Mai', 'Jun',
+        'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'
+    ];
+
+$aMonthNamesDElong = [
+    'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
+    'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'
+]; 
+
+
+$monthDe = $aMonthNamesDE[$eventDate->format('n')-1]; 
+$monthDelong = $aMonthNamesDElong[$eventDate->format('n')-1]; 
+$dateDe = $eventDate->format('d') . '. ' . $monthDelong . ' ' . $eventDate->format('Y');
+$id = "anchor-" . $post->post_name;
+$eventImage = get_field('event_image') ['sizes'] ['eventBild'];
+?>
+
+<!-- html -->
+
+
+<span id="<?php echo $id ;?>" style="visibility: hidden; margin:0; padding:0;"><?php echo $id;?></span>
+<div class="event-template">
+  <div class="event-template__image" style="background-image: url(<?php echo $eventImage ;?>);">  
+  </div> 
+
+  <div class="event-template__content">
+    <div class="event-template__header">
+      <div class="event-template__title">
+        <h3 class="headline headline--large-medium"><?php echo get_the_title();?></h3>
+        <h6 class="headline--date"><?php echo $dateDe ;?></h6>
+      </div> 
+      <a class="event-template__date t-center">
+        <span class="event-template__day"><?php echo $eventDate->format('d');?>.</span>  
+        <span class="event-template__month">
+          <?php echo $monthDe; ?>
+        </span>
+      </a>
+    </div>
+    <div class="event-template__text">
+      <p>
+        <?php the_content();?>
+      </p>
+    </div>
+  </div>  
 </div>

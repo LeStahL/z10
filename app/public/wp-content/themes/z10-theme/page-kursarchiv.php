@@ -28,9 +28,11 @@ pageBanner(); ?>
   ));
 
   	while($pastKurse->have_posts()) {
-      $pastKurse->the_post();
-      get_template_part('template-parts/content', 'kurs');
-
+      $pastKurse->the_post(); ?>
+      <div class="kurs-template">
+        <?php get_template_part('template-parts/content', 'kurs'); ?>
+      </div> <?php
+      wp_reset_postdata();
     }
     wp_reset_postdata();
 

@@ -6,8 +6,6 @@ pageBanner(); ?>
   <div class="container container--narrow page-section">	
 
   <?php 
-  // get_template_part('template-parts/content-sidemenu');   
-
 
   	$today = date('Ymd');
     $HomepageKurse = new WP_Query(array(
@@ -29,8 +27,12 @@ pageBanner(); ?>
   	while($HomepageKurse->have_posts()) {
   		$HomepageKurse->the_post();
       $kursID = get_the_ID();
+      ?>
+      <div class="kurs-template">
+      <?php   
 			get_template_part('template-parts/content', 'kurs'); 
       wp_reset_postdata();
+
   	} ?>
 
     <?php

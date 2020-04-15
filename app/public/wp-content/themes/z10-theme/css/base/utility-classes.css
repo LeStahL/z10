@@ -7,6 +7,7 @@
 
 .container--narrow {
   max-width: 960px;
+  margin-bottom: 100px;
 }
 
 .section-break {
@@ -28,9 +29,11 @@
 .p-top-large {padding-top: 1.6rem}
 .p-bottom-large {padding-bottom: 1.6rem}
 
+
+
 @mixin atSmall {
-  .p-top-large {padding-top: 3.5rem}
-  .p-bottom-large {padding-bottom: 3.5rem}
+  .p-top-large {padding-top: 4rem}
+  .p-bottom-large {padding-bottom: 2rem}
 }
 
 .no-margin {margin: 0}
@@ -71,4 +74,9 @@
 
 * {
   box-sizing: border-box;
+}
+
+#anchor-konzert-2 {
+  position: relative;
+  top: 0px !important;
 }

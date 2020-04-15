@@ -3,6 +3,7 @@
 function z10_post_types() {
 	// Event Post Type
 	register_post_type('event', array(
+		'query_var' => false,
 		'show_in_rest' => true,
 		'capability_type' => 'event',  //neue Userrole
 		'map_meta_cap' => true,
