@@ -473,6 +473,9 @@ p, li {
 .baloo-font {
   font-family: 'Baloo Bhai 2', cursive;
 }
+* {
+  box-sizing: border-box;
+}
 /* BEM Blocks */
 .remove-favorite {
   display: inline-block;

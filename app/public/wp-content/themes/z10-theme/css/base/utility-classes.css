@@ -68,3 +68,7 @@
 .baloo-font {
   font-family: 'Baloo Bhai 2', cursive;
 }
+
+* {
+  box-sizing: border-box;
+}
