@@ -57,7 +57,7 @@ function single_metabox($args=NULL) {
 
 function header_main($args=NULL) { ?>
 
-	<li <?php if (is_page($args['name']) or wp_get_post_parent_id(0)== $args['id'] or get_post_type() == $args['post_type']) echo 'class=" current-menu-item"' ;?>><div <?php if ($args['id'] != 1000) echo 'class="dropdown"' ;?> ><a href="<?php echo site_url($args['slug']);?>" class="dropbtn" ><?php echo $args['title']; ?></a>
+	<li <?php if (is_page($args['name']) or wp_get_post_parent_id(0)== $args['id'] or get_post_type() == $args['post_type']) echo 'class=" current-menu-item"' ;?>><div <?php if ($args['id'] != 1000) echo 'class="dropdown"' ;?> ><a href="<?php echo site_url($args['slug']);?>" class="dropbtn" ><?php echo $args['title']; ?><span><i class="fa fa-angle-down header-arrow"></i></span></a>
 		<?php header_sub(array('parentID' => $args['id'])); ?>
 	</div></li> <?php
 }

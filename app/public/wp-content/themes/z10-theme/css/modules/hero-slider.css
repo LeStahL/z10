@@ -80,7 +80,9 @@
 
 .for_slick_slider {
   display: flex;
-  margin-bottom: 50px;
+  @mixin atMedium {
+    margin-bottom: 50px;
+  }
 }
 
 .for_slick_slider .items {

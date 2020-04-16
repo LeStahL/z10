@@ -1655,3 +1655,47 @@ Stack trace:
 [15-Apr-2020 16:26:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/page-kursarchiv.php on line 35
 [15-Apr-2020 16:28:14 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 105
 [15-Apr-2020 16:28:22 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/Greta/Documents/GitHub/z10/app/public/wp-content/themes/z10-theme/template-parts/content-kurs.php on line 105
+[16-Apr-2020 06:36:19 UTC] PHP Warning:  Ein unerwarteter Fehler ist aufgetreten. Es scheint etwas bei WordPress.org oder mit dieser Serverkonfiguration nicht zu stimmen. Sollte das Problem weiter bestehen, nutze bitte die <a href="https://de.wordpress.org/support/forums/">Support-Foren</a>. (WordPress konnte keine sichere Verbindung zu WordPress.org herstellen. Bitte kontaktiere deinen Server-Administrator.) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php on line 578
+[16-Apr-2020 06:36:19 UTC] PHP Stack trace:
+[16-Apr-2020 06:36:19 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:0
+[16-Apr-2020 06:36:19 UTC] PHP   2. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:138
+[16-Apr-2020 06:36:19 UTC] PHP   3. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[16-Apr-2020 06:36:19 UTC] PHP   4. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[16-Apr-2020 06:36:19 UTC] PHP   5. wp_version_check() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[16-Apr-2020 06:36:19 UTC] PHP   6. do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:242
+[16-Apr-2020 06:36:19 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:478
+[16-Apr-2020 06:36:19 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[16-Apr-2020 06:36:19 UTC] PHP   9. wp_maybe_auto_update() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[16-Apr-2020 06:36:19 UTC] PHP  10. WP_Automatic_Updater->run() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:611
+[16-Apr-2020 06:36:19 UTC] PHP  11. wp_update_themes() /Users/Greta/Documents/GitHub/z10/app/public/wp-admin/includes/class-wp-automatic-updater.php:477
+[16-Apr-2020 06:36:19 UTC] PHP  12. trigger_error() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:578
+[16-Apr-2020 06:36:20 UTC] PHP Warning:  Ein unerwarteter Fehler ist aufgetreten. Es scheint etwas bei WordPress.org oder mit dieser Serverkonfiguration nicht zu stimmen. Sollte das Problem weiter bestehen, nutze bitte die <a href="https://de.wordpress.org/support/forums/">Support-Foren</a>. (WordPress konnte keine sichere Verbindung zu WordPress.org herstellen. Bitte kontaktiere deinen Server-Administrator.) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php on line 388
+[16-Apr-2020 06:36:20 UTC] PHP Stack trace:
+[16-Apr-2020 06:36:20 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:0
+[16-Apr-2020 06:36:20 UTC] PHP   2. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:138
+[16-Apr-2020 06:36:20 UTC] PHP   3. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[16-Apr-2020 06:36:20 UTC] PHP   4. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[16-Apr-2020 06:36:20 UTC] PHP   5. wp_version_check() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[16-Apr-2020 06:36:20 UTC] PHP   6. do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:242
+[16-Apr-2020 06:36:20 UTC] PHP   7. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:478
+[16-Apr-2020 06:36:20 UTC] PHP   8. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[16-Apr-2020 06:36:20 UTC] PHP   9. wp_maybe_auto_update() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[16-Apr-2020 06:36:20 UTC] PHP  10. WP_Automatic_Updater->run() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:611
+[16-Apr-2020 06:36:20 UTC] PHP  11. wp_update_plugins() /Users/Greta/Documents/GitHub/z10/app/public/wp-admin/includes/class-wp-automatic-updater.php:478
+[16-Apr-2020 06:36:20 UTC] PHP  12. trigger_error() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:388
+[16-Apr-2020 06:36:20 UTC] PHP Warning:  Ein unerwarteter Fehler ist aufgetreten. Es scheint etwas bei WordPress.org oder mit dieser Serverkonfiguration nicht zu stimmen. Sollte das Problem weiter bestehen, nutze bitte die <a href="https://de.wordpress.org/support/forums/">Support-Foren</a>. (WordPress konnte keine sichere Verbindung zu WordPress.org herstellen. Bitte kontaktiere deinen Server-Administrator.) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php on line 388
+[16-Apr-2020 06:36:20 UTC] PHP Stack trace:
+[16-Apr-2020 06:36:20 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:0
+[16-Apr-2020 06:36:20 UTC] PHP   2. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:138
+[16-Apr-2020 06:36:20 UTC] PHP   3. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[16-Apr-2020 06:36:20 UTC] PHP   4. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[16-Apr-2020 06:36:20 UTC] PHP   5. wp_update_plugins() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[16-Apr-2020 06:36:20 UTC] PHP   6. trigger_error() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:388
+[16-Apr-2020 06:36:20 UTC] PHP Warning:  Ein unerwarteter Fehler ist aufgetreten. Es scheint etwas bei WordPress.org oder mit dieser Serverkonfiguration nicht zu stimmen. Sollte das Problem weiter bestehen, nutze bitte die <a href="https://de.wordpress.org/support/forums/">Support-Foren</a>. (WordPress konnte keine sichere Verbindung zu WordPress.org herstellen. Bitte kontaktiere deinen Server-Administrator.) in /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php on line 578
+[16-Apr-2020 06:36:20 UTC] PHP Stack trace:
+[16-Apr-2020 06:36:20 UTC] PHP   1. {main}() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:0
+[16-Apr-2020 06:36:20 UTC] PHP   2. do_action_ref_array() /Users/Greta/Documents/GitHub/z10/app/public/wp-cron.php:138
+[16-Apr-2020 06:36:20 UTC] PHP   3. WP_Hook->do_action() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/plugin.php:544
+[16-Apr-2020 06:36:20 UTC] PHP   4. WP_Hook->apply_filters() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:311
+[16-Apr-2020 06:36:20 UTC] PHP   5. wp_update_themes() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/class-wp-hook.php:287
+[16-Apr-2020 06:36:20 UTC] PHP   6. trigger_error() /Users/Greta/Documents/GitHub/z10/app/public/wp-includes/update.php:578
