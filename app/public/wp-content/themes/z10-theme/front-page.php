@@ -53,8 +53,8 @@ $aMonthNamesDElong = [
         <div class="items">
           <a href="<?php echo $id;?>" class="slideImage nu" style="background-image: url(<?php echo get_field('event_image')['sizes']['large'];?>);">
             <span class="slideTitle">
-              <h5><?php echo $eventDate->format('j.n.Y');?></h5>
               <h4 class="headline--tiny nu"><?php the_title();?></h4>
+              <h5><?php echo $eventDate->format('j.n.Y');?></h5>
             </span>
             <!-- <div class="t-center slideDate" href="#"><span class="slideDay"><?php echo $eventDate->format('j.n.');
             ?></span>

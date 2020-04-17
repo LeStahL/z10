@@ -11,7 +11,7 @@
 
         <div class="site-footer__col-two-three-group">
           <div class="site-footer__col-two">
-            <h3 class="headline headline--small">Angebot</h3>
+            <h3 class="headline headline--small">Aktuell</h3>
             <nav class="nav-list">
               <ul>
                 <li><a class="site-footer__link" href="<?php echo site_url('/programm');?>">Programm</a></li>
