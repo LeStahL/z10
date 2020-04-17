@@ -117,7 +117,7 @@
 .social-icons-list li a {
   display: block;
   text-align: center;
-  color: #FFF;
+  /*color: #FFF;*/
   font-size: 1.25rem;
 }
 

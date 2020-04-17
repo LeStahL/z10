@@ -1,6 +1,6 @@
 .site-footer {
   padding: 2rem 0 3.5rem 0;
-  background-image: linear-gradient(#FFF, #ECECEC);
+  background-image: linear-gradient(rgb(30,30,30), rgb(0,0,0));
 
   p {
     font-size: .9rem;
@@ -14,6 +14,8 @@
   &__link {
     color: #999;
     text-decoration: none;
+    padding: 0;
+    text-align: left;
   }
 
   &__link:hover {
@@ -22,27 +24,28 @@
   }
 
   &__inner {
-    border-top: 1px dotted #DEDEDE;
-    padding-top: 3.5rem;
+    /*border-top: 1px dotted #DEDEDE;*/
+    /*padding-top: 3.5rem;*/
   }
 
   &__col-one {
     text-align: center;
     @mixin atMedium {
       text-align: left;
-      width: 33%;
+      width: 45%;
       float: left;
     }
   }
 
   &__col-two-three-group {
     text-align: center;
-    width: 85%;
+    width: 66%;
     margin: 0 auto;
+    float: left;
     @mixin atMedium {
       text-align: left;
       float: left;
-      width: 42%;
+      width: 35%;
       margin: 0;
     }
   }
@@ -56,17 +59,18 @@
     float: left;
   }
   &__col-four {
-    padding-top: 20px;
-    width: 85%;
+    /*padding-top: 20px;*/
+    width: 33%;
     margin: 0 auto;
-    clear: both;
+    /*clear: both;*/
     text-align: center;
+    float: left;
     @mixin atMedium {
       padding-top: 0;
       margin: 0;
       clear: none;
       text-align: left;
-      width: 25%;
+      width: 15%;
       float: right;
     }
   }

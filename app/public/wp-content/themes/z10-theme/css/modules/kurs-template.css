@@ -96,6 +96,11 @@
   position: relative;
   float: left;
   margin: auto;
+} 
+
+&__link {
+  padding: 0;
+  color: rgb(130,130,130);
 }   
  
 
@@ -114,4 +119,5 @@
     font-size: 1.6rem;
   }
 }
+
 

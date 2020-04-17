@@ -5,44 +5,43 @@
       <div class="group">
 
         <div class="site-footer__col-one">
-          <h1 class="school-logo-text school-logo-text--alt-color"><a href="<?php echo site_url();?>"><strong>Fictional</strong> University</a></h1>
-          <p><a class="site-footer__link" href="#">555.555.5555</a></p>
+          <h1 class="school-logo-text school-logo-text--alt-color"><a href="<?php echo site_url();?>"><strong>Studentenzentrum Z10 e.V.</strong></a></h1>
+          <p><a class="site-footer__link" href="<?php echo site_url('/kontakt');?>">Zähringerstr. 10 76131 Karlsruhe</a></p>
         </div>
 
         <div class="site-footer__col-two-three-group">
           <div class="site-footer__col-two">
-            <h3 class="headline headline--small">Explore</h3>
+            <h3 class="headline headline--small">Angebot</h3>
             <nav class="nav-list">
               <ul>
-                <li><a href="<?php echo site_url('/das-z10');?>">Das Z10</a></li>
-                <li><a href="#">Programs</a></li>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Campuses</a></li>
+                <li><a class="site-footer__link" href="<?php echo site_url('/programm');?>">Programm</a></li>
+                <li><a class="site-footer__link" href="<?php echo site_url('/kurse');?>">Kurse</a></li>
+                <li><a class="site-footer__link" href="<?php echo site_url('/news');?>">News</a></li>
+                <li><a class="site-footer__link" href="<?php echo site_url('/helfen');?>">Helfen</a></li>
               </ul>
             </nav>
           </div>
 
           <div class="site-footer__col-three">
-            <h3 class="headline headline--small">Learn</h3>
+            <h3 class="headline headline--small">Über uns</h3>
             <nav class="nav-list">
               <ul>
-                <li><a href="#">Legal</a></li>
-                <li><a href="<?php echo site_url('/datenschutz');?>">Datenschutz</a></li>
-                <li><a href="#">Careers</a></li>
+                <li><a class="site-footer__link" href="<?php echo site_url('/das-z10');?>">Das Z10</a></li>
+                <li><a class="site-footer__link" href="<?php echo site_url('/kontakt');?>">Kontakt</a></li>
+                <li><a class="site-footer__link" href="<?php echo site_url('/datenschutz');?>">Datenschutz</a></li>
+                <li><a class="site-footer__link" href="<?php echo site_url('/impressum');?>">Impressum</a></li>
               </ul>
             </nav>
           </div>
         </div>
 
         <div class="site-footer__col-four">
-          <h3 class="headline headline--small">Connect With Us</h3>
+          <h3 class="headline headline--small">Social Media</h3>
           <nav>
             <ul class="min-list social-icons-list group">
-              <li><a href="#" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-              <li><a href="#" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-              <li><a href="#" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-              <li><a href="#" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-              <li><a href="#" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a class="site-footer__link" href="//www.facebook.com/Z10eVKarlsruhe/" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a class="site-footer__link" href="//www.instagram.com/z10ev/" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a class="site-footer__link" href="//www.youtube.com/user/StudentenzentrumZ10" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
             </ul>
           </nav>
         </div>

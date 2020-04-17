@@ -123,6 +123,26 @@
   text-overflow: ellipsis;
 }
 
+.slideTitle h4{
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slideTitle h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  display: inline;
+  font-style: italic;
+}
+
+.slideTitle h5::after, .slideTitle h5::before {
+  color: $lightOrange;
+  content: " • ";
+}
 
 .for_slick_slider .items .slideDate {
   display: block;

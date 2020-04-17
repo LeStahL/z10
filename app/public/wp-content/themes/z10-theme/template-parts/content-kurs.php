@@ -126,7 +126,7 @@ $gebuhr = get_field('kurs_gebuhr') . "&#8364";
           <?php 
           $relatedMitglied = get_field('kurs_betreuer'); 
           foreach($relatedMitglied as $mitglied) { ?>
-            <a style="padding: 0" href="<?php echo get_the_permalink($mitglied);?> "> <?php echo get_the_title($mitglied) ;?></a> 
+            <a class="kurs-template__link nu" href="<?php echo get_the_permalink($mitglied);?> "> <?php echo get_the_title($mitglied) ;?></a> 
           <?php } ?>
           </li>
         </ul>

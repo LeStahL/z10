@@ -69,7 +69,7 @@
 }
 
 li a, .dropbtn {
-  display: inline-block;
+  display: inline;
   text-align: left;
   padding: 40px 16px;
   text-decoration: none;
