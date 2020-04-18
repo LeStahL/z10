@@ -182,3 +182,4 @@ app/public/wp-content/themes/z10-theme/.DS_Store
 app/sql/local.sql
 logs/php/php-fpm.log
 node_modules/.DS_Store
+app/public/wp-config.php
