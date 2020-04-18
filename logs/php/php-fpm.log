@@ -10,3 +10,9 @@
 [09-Apr-2020 21:27:48] NOTICE: exiting, bye-bye!
 [09-Apr-2020 21:28:09] NOTICE: fpm is running, pid 2148
 [09-Apr-2020 21:28:09] NOTICE: ready to handle connections
+[18-Apr-2020 14:29:58] WARNING: [pool www] child 2158 said into stderr: "error sending mail"
+[18-Apr-2020 14:29:58] WARNING: [pool www] child 2158 said into stderr: "2020/04/18 14:29:58 dial tcp 127.0.0.1:10007: connect: connection refused"
+[18-Apr-2020 14:29:58] WARNING: [pool www] child 2158 said into stderr: "error sending mail"
+[18-Apr-2020 14:29:58] WARNING: [pool www] child 2158 said into stderr: "2020/04/18 14:29:58 dial tcp 127.0.0.1:10007: connect: connection refused"
+[18-Apr-2020 14:31:18] WARNING: [pool www] child 2157 said into stderr: "error sending mail"
+[18-Apr-2020 14:31:18] WARNING: [pool www] child 2157 said into stderr: "2020/04/18 14:31:18 dial tcp 127.0.0.1:10007: connect: connection refused"
